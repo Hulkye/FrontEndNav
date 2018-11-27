@@ -345,7 +345,8 @@ body {
     overflow: hidden;
     background: #fff;
     margin: 20px 30px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, .1);
 }
 
 .container .main .fe .sub-category>div {
@@ -591,7 +592,7 @@ body {
     }
 
     .container .footer {
-        height: 1.2rem;
+        height: 2.4rem;
         position: relative;
         margin-left: 0;
         bottom: 0;

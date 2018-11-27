@@ -11,18 +11,20 @@ $(function () {
         // 获取楼层高度
         var floorTop = $("#" + floorName).offset().top;
         // console.log(floorTop);
-        $('html,body').animate({
+        $('html,body').stop().animate({
             scrollTop: floorTop
         }, 800);
 
     });
 
 
-    $(window).scroll(function () {
-        $("#category li").each(function () {
-            $(this).removeClass("active");
-        })
-    });
+    // $(window).scroll(function () {
+    //     setTimeout(function () {
+    //         $("#category li").each(function () {
+    //             $(this).removeClass("active");
+    //         })
+    //     },900)
+    // });
 
     // $(window).scroll(function () {
     //     // alert('msg');
