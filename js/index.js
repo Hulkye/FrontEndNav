@@ -18,38 +18,28 @@ $(function () {
     });
 
 
-    // $(window).scroll(function () {
-    //     setTimeout(function () {
-    //         $("#category li").each(function () {
-    //             $(this).removeClass("active");
-    //         })
-    //     },900)
-    // });
+    $(window).scroll(function () {
+        // 获取屏幕滚动的高度
+        var top = $('html,body').scrollTop() || $(window).scrollTop();
 
-    // $(window).scroll(function () {
-    //     // alert('msg');
-    //     // 获取屏幕滚动的高度
-    //     var top = $('html,body').scrollTop() || $(window).scrollTop();
-    //     console.log(top);
-    //     $("#mainContent > div").each(function () {
-    //         // 获取当前盒子在浏览器的高度
-    //         var floorHight = $(this).offset().top;
-    //         // 获取当前楼层id
-    //         var floorName = $(this).attr("id");
-    //         var floorId = floorName.substring(0,floorName.length-4);
+        $("#mainContent > div").each(function () {
+            // 获取当前盒子在浏览器的高度
+            var floorHight = $(this).offset().top;
+            // 获取当前楼层id
+            var floorName = $(this).attr("id");
+            var floorId = floorName.substring(0,floorName.length-4);
+            // 设置楼层高度范围
+            var floorTop =  floorHight;
+            var floorFoot = floorHight + $("#"+floorId).height();
+            if (top >= floorTop && top <= floorFoot) {
+                $("#category li").each(function () {
+                    $(this).removeClass("active");
+                })
+                $("#"+floorId).addClass("active");
+            }
+        })
 
+    });
 
-    //         if (top >= floorHight) {
-    //             $("#category li").each(function () {
-    //                 $(this).removeClass("active");
-    //             })
-    //             $("#"+floorId).addClass("active");
-
-    //         }
-    //     });
-
-    // });
-
-
-
+    
 });
