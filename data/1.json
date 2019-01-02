@@ -1,0 +1,185 @@
+[
+    {
+        "nav_Category": "baseLearn",
+        "category_CN": "学习资源",
+        "category_icon": "&#xe64c;",
+        "category_item": "baseLearnItem",
+        "item_children": [
+            {
+                "child_name": "Hulkye's 前端笔记本",
+                "img_src": "./img/Hulkye.png",
+                "a_href": "https://hulkye.github.io/Docs/",
+                "child_desc": "个人的前端学习笔记本,记录些许"
+            },
+            {
+                "child_name": "Mozilla 开发者网络",
+                "img_src": "./img/mozilla.jpg",
+                "a_href": "https://developer.mozilla.org/zh-CN/",
+                "child_desc": "MDN Web Docs 网站提供开放网络（Open Web）技术有关的信息，包括用于网站和渐进式网络应用的 HTML、CSS 和 API。"
+            },
+            {
+                "child_name": "freeCodeCamp中文社区",
+                "img_src": "./img/freecodecamp.png",
+                "a_href": "https://www.freecodecamp.cn/",
+                "child_desc": " 一个帮助你学习编程的开源社区,开启你的软件工程师生涯."
+            },
+            {
+                "child_name": "学习CSS布局",
+                "img_src": "./img/learnlayout.png",
+                "a_href": "http://zh.learnlayout.com/",
+                "child_desc": "本站教授的是现在广泛使用于网站布局领域的CSS基础。"
+            },
+            {
+                "child_name": "WEB开发基础 — 优设网",
+                "img_src": "./img/uisdc.png",
+                "a_href": "http://wf.uisdc.com/cn/",
+                "child_desc": "网站开发基础知识，最佳实践手册。是由谷歌发布的一个简单易懂的多设备网络开发指南。"
+            },
+            {
+                "child_name": "菜鸟教程",
+                "img_src": "./img/runoob.png",
+                "a_href": "http://www.runoob.com/",
+                "child_desc": "菜鸟教程,提供了编程的基础技术教程.学的不仅是技术，更是梦想！"
+            },
+            {
+                "child_name": "w3school",
+                "img_src": "./img/w3school.png",
+                "a_href": "http://www.w3school.com.cn/",
+                "child_desc": "w3school 在线教程 , 全球最大的中文 Web 技术教程。"
+            },
+            {
+                "child_name": "百度前端技术学院",
+                "img_src": "./img/ifebaidu.png",
+                "a_href": "http://ife.baidu.com/",
+                "child_desc": "百度前端技术学院是一个为大学生创办的免费的前端技术实践、分享、交平台。"
+            },
+            {
+                "child_name": "W3-Help",
+                "img_src": "./img/w3help.png",
+                "a_href": "http://www.w3help.org/zh-cn/kb",
+                "child_desc": "系统的介绍某些知识点，帮助开发者正确理解该知识点的概念及与其他知识点的关联性，梳理知识体系。"
+            },
+            {
+                "child_name": "JavaScript 秘密花园",
+                "img_src": "./img/JavaScript-Garden.png",
+                "a_href": "http://bonsaiden.github.io/JavaScript-Garden/zh/",
+                "child_desc": "JavaScript 细节点分析"
+            },
+            {
+                "child_name": "前端开发者手册",
+                "img_src": "./img/frontenddevhandbook.png",
+                "a_href": "https://dwqs.gitbooks.io/frontenddevhandbook/content/",
+                "child_desc": "这是任何人都可以用来学习前端的实践手册, 它概述并讨论了前端工程的实践。"
+            },
+            {
+                "child_name": "前端笔记本",
+                "img_src": "./img/frontend-notebook.png",
+                "a_href": "https://li-xinyang.gitbooks.io/frontend-notebook/content/?q=",
+                "child_desc": "《前端笔记本》涵盖了 Web 前端开发所需的全部基本知识以及所对应的学习路径。"
+            },
+            {
+                "child_name": "表严肃-不要水，讲干货",
+                "img_src": "./img/biaoyansu.png",
+                "a_href": "http://biaoyansu.com/",
+                "child_desc": "基础教程视频,B站良心up主,满满的干货."
+            },
+            {
+                "child_name": "NEC(CSS规范)",
+                "img_src": "./img/netease.png",
+                "a_href": "http://nec.netease.com/",
+                "child_desc": "NEC包括了规范、框架、代码库、插件等内容，致力于为前端开发人员提供高效率高质量的前端页面开发解决方案。"
+            },
+            {
+                "child_name": "scriptoj",
+                "img_src": "./img/scriptoj.png",
+                "a_href": "http://scriptoj.mangojuice.top/",
+                "child_desc": "国人开发的前端题库，可以用作评测系统，带有讨论区"
+            },
+            {
+                "child_name": "如何跟上前端开发的最新前沿",
+                "img_src": "./img/frontendrescue.png",
+                "a_href": "https://uptodate.frontendrescue.org/zh/",
+                "child_desc": "如何跟上前端开发的最新前沿 前端开发 - The Recipe"
+            },
+            {
+                "child_name": "HEAD",
+                "img_src": "./img/head.png",
+                "a_href": "https://github.com/joshbuchea/HEAD",
+                "child_desc": "最全的 head 列表，真心佩服这种偏执的整理能力"
+            },
+            {
+                "child_name": "ECMAScript 6 入门",
+                "img_src": "./img/es6.png",
+                "a_href": "http://es6.ruanyifeng.com/#README",
+                "child_desc": "阮一峰的《ECMAScript 6入门》"
+            }
+        ]
+    },
+
+    {
+        "nav_Category": "apiDoc"
+    },
+
+    {
+        "nav_Category": "community"
+    },
+
+    {
+        "nav_Category": "portals"
+    },
+
+    {
+        "nav_Category": "organization"
+    },
+
+    {
+        "nav_Category": "framework"
+    },
+
+    {
+        "nav_Category": "cssAbout"
+    },
+
+    {
+        "nav_Category": "codeSource"
+    },
+
+    {
+        "nav_Category": "templatePlug"
+    },
+
+    {
+        "nav_Category": "buildTools"
+    },
+
+    {
+        "nav_Category": "ide"
+    },
+
+    {
+        "nav_Category": "fontIco"
+    },
+
+    {
+        "nav_Category": "vision"
+    },
+
+    {
+        "nav_Category": "blog"
+    },
+
+    {
+        "nav_Category": "chrome"
+    },
+
+    {
+        "nav_Category": "auxiliary"
+    },
+
+    {
+        "nav_Category": "conference"
+    }
+
+
+
+]
