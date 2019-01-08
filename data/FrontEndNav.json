@@ -1,6 +1,6 @@
 [
     {
-        "nav_Category": "baseLearn",
+        "Category_id": "baseLearn",
         "category_CN": "学习资源",
         "category_icon": "&#xe64c;",
         "category_item": "baseLearnItem",
@@ -117,7 +117,7 @@
     },
 
     {
-        "nav_Category": "apiDoc",
+        "Category_id": "apiDoc",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "apiDocItem",
@@ -180,22 +180,166 @@
     },
 
     {
-        "nav_Category": "community",
+        "Category_id": "community",
         "category_CN": "技术社区",
         "category_icon": "&#xeb92;",
         "category_item": "communityItem",
         "item_children": [
             {
-                "child_name": "Hulkye's 前端笔记本",
-                "img_src": "./img/Hulkye.png",
-                "a_href": "https://hulkye.github.io/Docs/",
-                "child_desc": "个人的前端学习笔记本,记录些许"
+                "child_name": "GitHub",
+                "img_src": "./img/github.png",
+                "a_href": "https://github.com/",
+                "child_desc": "一个面向开源及私有软件项目的托管平台,全球最大同性交友网站"
+            },
+            {
+                "child_name": "掘金 - juejin.im",
+                "img_src": "./img/juejin.png",
+                "a_href": "https://juejin.im/welcome/frontend",
+                "child_desc": "一个帮助开发者成长的社区"
+            },
+            {
+                "child_name": "SegmentFault 思否",
+                "img_src": "./img/segmentfault.png",
+                "a_href": "https://segmentfault.com/channel/frontend",
+                "child_desc": "SegmentFault 思否 为开发者提供问答、学习与交流编程知识的平台，创造属于开发者的时代！"
+            },
+            {
+                "child_name": "前端网（QDFuns）",
+                "img_src": "./img/qdfuns.png",
+                "a_href": "https://www.qdfuns.com/",
+                "child_desc": "WEB前端开发工程师专业网站，一站式服务平台！"
+            },
+            {
+                "child_name": "博客园",
+                "img_src": "./img/cnblogs.png",
+                "a_href": "https://www.cnblogs.com/",
+                "child_desc": "博客园是一个面向开发者的知识分享社区。"
+            },
+            {
+                "child_name": "伯乐在线",
+                "img_src": "./img/jobbole.png",
+                "a_href": "http://web.jobbole.com/",
+                "child_desc": "WEB前端 - 伯乐在线"
+            },
+            {
+                "child_name": "CSDN",
+                "img_src": "./img/csdn.png",
+                "a_href": "https://www.csdn.net/nav/web",
+                "child_desc": "CSDN-专业IT技术社区"
+            },
+            {
+                "child_name": "前端乱炖",
+                "img_src": "./img/html-js.png",
+                "a_href": "http://www.html-js.com/",
+                "child_desc": "前端乱炖，这里是最专业的前端知识平台，汇集国内大部分前端开发人员的前端花名册，最精彩的原创文章专栏，最专业的问答平台，最火热的话题频道，最丰富的线下线上活动。"
+            },
+            {
+                "child_name": "v2ex",
+                "img_src": "./img/v2ex.png",
+                "a_href": "https://www.v2ex.com/",
+                "child_desc": "一个关于分享和探索的地方"
             }
         ]
     },
 
     {
-        "nav_Category": "portals",
+        "Category_id": "portals",
+        "category_CN": "前端门户",
+        "category_icon": "&#xeb92;",
+        "category_item": "portalsItem",
+        "item_children": [
+            {
+                "child_name": "w3cplus",
+                "img_src": "./img/w3cplus.png",
+                "a_href": "https://www.w3cplus.com/",
+                "child_desc": "引领web前沿，打造前端精品教程"
+            },
+            {
+                "child_name": "HTML5梦工场",
+                "img_src": "./img/html5dw.png",
+                "a_href": "http://www.html5dw.com/",
+                "child_desc": "HTML5梦工场是中国最大的前端开发者社区"
+            },
+            {
+                "child_name": "大前端",
+                "img_src": "./img/daqianduan.png",
+                "a_href": "http://www.daqianduan.com/",
+                "child_desc": "大前端是一个关注前端开发、用户体验设计、HTML5、CSS3、Javascript的前端开发独立博客。"
+            },
+            {
+                "child_name": "开源中国",
+                "img_src": "./img/oschina.png",
+                "a_href": "https://www.oschina.net/",
+                "child_desc": "开源中国 www.oschina.net 是目前中国最大的开源技术社区。"
+            },
+            {
+                "child_name": "W3Cways",
+                "img_src": "./img/w3cways.png",
+                "a_href": "https://www.w3cways.com/",
+                "child_desc": "Web前端学习之路，网站提供很丰富的相关技术中文文档。"
+            },
+            {
+                "child_name": "WEB前端开发(css88)",
+                "img_src": "./img/css88.png",
+                "a_href": "https://www.css88.com/",
+                "child_desc": "web前端开发，专注前端开发，关注用户体验，关注国内外最新最好的前端开发技术和前端开发资讯的专业博客"
+            },
+            {
+                "child_name": "Awesomes-Web前端开发资源库",
+                "img_src": "./img/awesomes.png",
+                "a_href": "https://www.awesomes.cn/",
+                "child_desc": "Web前端开发工程师需要的免费开源的高质量前端库、框架和插件"
+            },
+            {
+                "child_name": "Helloweba",
+                "img_src": "./img/helloweba.png",
+                "a_href": "https://www.helloweba.net/",
+                "child_desc": "Helloweba为广大WEB开发者提供Javascript前端、PHP后端、服务器运维知识以及业界相关的高质量技术文章分享."
+            },
+            {
+                "child_name": "PHP中文网",
+                "img_src": "./img/phpcn.png",
+                "a_href": "http://www.php.cn/",
+                "child_desc": "php中文网-教程_手册_视频-免费php在线学习平台."
+            }
+        ]
+    },
+
+    {
+        "Category_id": "organization",
+        "category_CN": "组织团队",
+        "category_icon": "&#xeb92;",
+        "category_item": "organizationItem",
+        "item_children": [
+            {
+                "child_name": "万维网联盟W3C",
+                "img_src": "./img/w3.png",
+                "a_href": "https://www.w3.org/",
+                "child_desc": "万维网联盟创建于1994年，是Web技术领域最具权威和影响力的国际中立性技术标准机构。"
+            },
+            {
+                "child_name": "奇舞团",
+                "img_src": "./img/75team.png",
+                "a_href": "https://75team.com/",
+                "child_desc": "奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队。"
+            },
+            {
+                "child_name": "奇舞团",
+                "img_src": "./img/75team.png",
+                "a_href": "https://75team.com/",
+                "child_desc": "奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队。"
+            },
+            {
+                "child_name": "百度EFE",
+                "img_src": "./img/efebaidu.png",
+                "a_href": "http://efe.baidu.com/",
+                "child_desc": "百度EFE技术体系，前身是ECOM前端团队，后经过技术的发展，逐渐形成一套完善的前端技术体系。"
+            }
+        ]
+    },
+
+    {
+        "Category_id": "framework",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -210,7 +354,7 @@
     },
 
     {
-        "nav_Category": "organization",
+        "Category_id": "cssAbout",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -225,7 +369,7 @@
     },
 
     {
-        "nav_Category": "framework",
+        "Category_id": "codeSource",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -240,7 +384,7 @@
     },
 
     {
-        "nav_Category": "cssAbout",
+        "Category_id": "templatePlug",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -255,7 +399,7 @@
     },
 
     {
-        "nav_Category": "codeSource",
+        "Category_id": "buildTools",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -270,7 +414,7 @@
     },
 
     {
-        "nav_Category": "templatePlug",
+        "Category_id": "ide",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -285,7 +429,7 @@
     },
 
     {
-        "nav_Category": "buildTools",
+        "Category_id": "fontIco",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -300,7 +444,7 @@
     },
 
     {
-        "nav_Category": "ide",
+        "Category_id": "vision",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -315,7 +459,7 @@
     },
 
     {
-        "nav_Category": "fontIco",
+        "Category_id": "blog",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -330,7 +474,7 @@
     },
 
     {
-        "nav_Category": "vision",
+        "Category_id": "chrome",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -345,7 +489,7 @@
     },
 
     {
-        "nav_Category": "blog",
+        "Category_id": "auxiliary",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
@@ -360,37 +504,7 @@
     },
 
     {
-        "nav_Category": "chrome",
-        "category_CN": "文档API",
-        "category_icon": "&#xeb92;",
-        "category_item": "baseLearnItem",
-        "item_children": [
-            {
-                "child_name": "Hulkye's 前端笔记本",
-                "img_src": "./img/Hulkye.png",
-                "a_href": "https://hulkye.github.io/Docs/",
-                "child_desc": "个人的前端学习笔记本,记录些许"
-            }
-        ]
-    },
-
-    {
-        "nav_Category": "auxiliary",
-        "category_CN": "文档API",
-        "category_icon": "&#xeb92;",
-        "category_item": "baseLearnItem",
-        "item_children": [
-            {
-                "child_name": "Hulkye's 前端笔记本",
-                "img_src": "./img/Hulkye.png",
-                "a_href": "https://hulkye.github.io/Docs/",
-                "child_desc": "个人的前端学习笔记本,记录些许"
-            }
-        ]
-    },
-
-    {
-        "nav_Category": "conference",
+        "Category_id": "conference",
         "category_CN": "文档API",
         "category_icon": "&#xeb92;",
         "category_item": "baseLearnItem",
