@@ -2,7 +2,7 @@
     {
         "Category_id": "baseLearn",
         "category_CN": "学习资源",
-        "category_icon": "&#xe64c;",
+        "category_icon": "icon-xuexi",
         "category_item": "baseLearnItem",
         "item_children": [
             {
@@ -119,7 +119,7 @@
     {
         "Category_id": "apiDoc",
         "category_CN": "文档API",
-        "category_icon": "&#xeb92;",
+        "category_icon": "icon-icon_bangzhuwendang",
         "category_item": "apiDocItem",
         "item_children": [
             {
@@ -182,7 +182,7 @@
     {
         "Category_id": "community",
         "category_CN": "技术社区",
-        "category_icon": "&#xe621;",
+        "category_icon": "icon-zhishishequ",
         "category_item": "communityItem",
         "item_children": [
             {
@@ -245,7 +245,7 @@
     {
         "Category_id": "portals",
         "category_CN": "前端门户",
-        "category_icon": "&#xe65e;",
+        "category_icon": "icon-songmenhuwangzhan",
         "category_item": "portalsItem",
         "item_children": [
             {
@@ -308,7 +308,7 @@
     {
         "Category_id": "organization",
         "category_CN": "组织团队",
-        "category_icon": "&#xe6bb;",
+        "category_icon": "icon-zuzhi",
         "category_item": "organizationItem",
         "item_children": [
             {
@@ -396,7 +396,7 @@
     {
         "Category_id": "framework",
         "category_CN": "框架类库",
-        "category_icon": "&#xec7d;",
+        "category_icon": "icon-iframetianjia",
         "category_item": "frameworkItem",
         "item_children": [
             {
@@ -447,7 +447,7 @@
     {
         "Category_id": "cssAbout",
         "category_CN": "CSS相关",
-        "category_icon": "&#xe8ee;",
+        "category_icon": "icon-socialcss3outline",
         "category_item": "cssAboutItem",
         "item_children": [
             {
@@ -522,7 +522,7 @@
     {
         "Category_id": "codeSource",
         "category_CN": "代码素材",
-        "category_icon": "&#xe695;",
+        "category_icon": "icon-daima",
         "category_item": "codeSourceItem",
         "item_children": [
             {
@@ -573,7 +573,7 @@
     {
         "Category_id": "templatePlug",
         "category_CN": "模板插件",
-        "category_icon": "&#xe69c;",
+        "category_icon": "icon-chajian",
         "category_item": "templatePlugItem",
         "item_children": [
             {
@@ -696,7 +696,7 @@
     {
         "Category_id": "buildTools",
         "category_CN": "构建&打包工具",
-        "category_icon": "&#xebb7;",
+        "category_icon": "icon-guize",
         "category_item": "buildToolsItem",
         "item_children": [
             {
@@ -729,7 +729,7 @@
     {
         "Category_id": "ide",
         "category_CN": "编辑器/IDE",
-        "category_icon": "&#xeb67;",
+        "category_icon": "icon-shebeikaifa",
         "category_item": "ideItem",
         "item_children": [
             {
@@ -780,7 +780,7 @@
     {
         "Category_id": "fontIco",
         "category_CN": "字体图标",
-        "category_icon": "&#xe800;",
+        "category_icon": "icon-font",
         "category_item": "fontIcoItem",
         "item_children": [
             {
@@ -849,7 +849,7 @@
     {
         "Category_id": "vision",
         "category_CN": "视觉设计",
-        "category_icon": "&#xe801;",
+        "category_icon": "icon-dashujukeshihuaico-",
         "category_item": "visionItem",
         "item_children": [
             {
@@ -942,7 +942,7 @@
     {
         "Category_id": "blog",
         "category_CN": "大牛博客",
-        "category_icon": "&#xec50;",
+        "category_icon": "icon-fanshe",
         "category_item": "blogItem",
         "item_children": [
             {
@@ -1017,7 +1017,7 @@
     {
         "Category_id": "chrome",
         "category_CN": "chrome插件",
-        "category_icon": "&#xe691;",
+        "category_icon": "icon-chrome",
         "category_item": "chromeItem",
         "item_children": [
             {
@@ -1062,7 +1062,7 @@
     {
         "Category_id": "auxiliary",
         "category_CN": " 辅助工具",
-        "category_icon": "&#xe606;",
+        "category_icon": "icon-gongju1",
         "category_item": "auxiliaryItem",
         "item_children": [
             {
@@ -1119,7 +1119,7 @@
     {
         "Category_id": "conference",
         "category_CN": "前端大会",
-        "category_icon": "&#xe6fb;",
+        "category_icon": "icon-shequjiaozhengju",
         "category_item": "conferenceItem",
         "item_children": [
             {
