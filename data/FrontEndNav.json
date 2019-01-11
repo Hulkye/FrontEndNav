@@ -710,6 +710,18 @@
                 "img_src": "./img/Gulp.png",
                 "a_href": "https://www.gulpjs.com.cn/",
                 "child_desc": "用自动化构建工具增强你的工作流程！"
+            },
+            {
+                "child_name": "Grunt",
+                "img_src": "./img/Grunt.png",
+                "a_href": "https://www.gruntjs.net/",
+                "child_desc": "JavaScript 世界的构建工具"
+            },
+            {
+                "child_name": "Babel",
+                "img_src": "./img/babel.png",
+                "a_href": "https://www.babeljs.cn/",
+                "child_desc": "Babel 是一个 JavaScript 编译器。"
             }
         ]
     },
