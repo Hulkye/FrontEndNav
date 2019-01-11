@@ -1,9 +1,6 @@
 $(function () {
-
-    
-
     // 点击导航事件
-    $("#category").on("click","li", function () {
+    $("#category li").on("click", function () {
         $("#category li").each(function () {
             $(this).removeClass("active");
         })
@@ -49,24 +46,9 @@ $(function () {
     //     url: "../data/FrontEndNav.json",
     //     dataType: "json",
     //     success: function (res) {
-    //         var categoryHTML = template("CategoryId",{list:res});
-    //         var navItemHTML = template("navItemId",{list:res});
-    //         $('#category > ul').html(categoryHTML);
-    //         $("#mainContent").html(navItemHTML);
+    //         console.log(res);
     //     }
     // });
-    $.getJSON("https://raw.githubusercontent.com/Hulkye/FrontEndNav/master/data/db.json", (res)=>{
-            var categoryHTML = template("CategoryId",{list:res});
-            var navItemHTML = template("navItemId",{list:res});
-            $('#category > ul').html(categoryHTML);
-            $("#mainContent").html(navItemHTML);
-
-            Echo.init({
-                offset: 0,
-                throttle: 500
-            });
-        }
-    );
 
     
 });
