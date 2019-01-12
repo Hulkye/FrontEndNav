@@ -212,7 +212,7 @@ body {
   font-size: 12px;
   line-height: 16px;
   padding: 10px 0;
-  height: 45px;
+  height: 44px;
   text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
   text-overflow: ellipsis;
