@@ -112,6 +112,12 @@
                 "img_src": "./img/es6.png",
                 "a_href": "http://es6.ruanyifeng.com/#README",
                 "child_desc": "阮一峰的《ECMAScript 6入门》"
+            },
+            {
+                "child_name": "前端开发仓库",
+                "img_src": "./img/ciaoca.png",
+                "a_href": "http://code.ciaoca.com/",
+                "child_desc": "Web前端开发仓库，收录常用的JavaScript及jQuery插件，并提供在线演示效果。"
             }
         ]
     },
@@ -192,6 +198,12 @@
                 "child_desc": "一个面向开源及私有软件项目的托管平台,全球最大同性交友网站"
             },
             {
+                "child_name": "Stack Overflow",
+                "img_src": "./img/StackOverflow.png",
+                "a_href": "https://stackoverflow.com/",
+                "child_desc": "全球最大的技术问答网站，是一个与程序相关的IT技术问答网站"
+            },
+            {
                 "child_name": "掘金 - juejin.im",
                 "img_src": "./img/juejin.png",
                 "a_href": "https://juejin.im/welcome/frontend",
@@ -238,6 +250,12 @@
                 "img_src": "./img/v2ex.png",
                 "a_href": "https://www.v2ex.com/",
                 "child_desc": "一个关于分享和探索的地方"
+            },
+            {
+                "child_name": "众成翻译",
+                "img_src": "./img/zcfy.png",
+                "a_href": "https://zcfy.cc/",
+                "child_desc": "中国最好的技术翻译社区，最懂译者的翻译平台，奇虎360最大前端团队“奇舞团”出品"
             }
         ]
     },
@@ -566,6 +584,12 @@
                 "img_src": "./img/ctolib.png",
                 "a_href": "https://www.ctolib.com/",
                 "child_desc": "JavaScript开发社区 | 码库CTOLib"
+            },
+            {
+                "child_name": "模板之家",
+                "img_src": "./img/cssmoban.png",
+                "a_href": "http://www.cssmoban.com/",
+                "child_desc": "CSS模板之家为你提供大量精品网页模板,企业网站模板,网站模板下载,DIV+CSS模板,网页设计模板,网站后台模板,个人博客模板,上千种免费网页模板下载"
             }
         ]
     },
@@ -689,6 +713,36 @@
                 "img_src": "./img/blur-admin.png",
                 "a_href": "https://github.com/akveo/blur-admin",
                 "child_desc": "视觉冲击极强的管理后台，各种动画效果。"
+            },
+            {
+                "child_name": "Holder.js",
+                "img_src": "./img/holderjs.png",
+                "a_href": "https://github.com/imsky/holder",
+                "child_desc": "占位图片生成器"
+            },
+            {
+                "child_name": "placeholder.js",
+                "img_src": "./img/placeholder.png",
+                "a_href": "https://github.com/hustcc/placeholder.js",
+                "child_desc": "另一款占位图片生成器"
+            },
+            {
+                "child_name": "Echo.js",
+                "img_src": "./img/echojs.gif",
+                "a_href": "https://github.com/toddmotto/echo",
+                "child_desc": "简单的JavaScript轻量级图像延迟加载库"
+            },
+            {
+                "child_name": "jQuery-LazyLoad",
+                "img_src": "./img/jquery_lazyload.png",
+                "a_href": "https://github.com/tuupola/jquery_lazyload/",
+                "child_desc": "基于 jQuery 的图片延迟加载插件，在用户滚动页面到图片之后才进行加载。对于有较多的图片的网页，使用图片延迟加载，能有效的提高页面加载速度"
+            },
+            {
+                "child_name": "Picdiet.js",
+                "img_src": "./img/picdiet.png",
+                "a_href": "https://widget.picdiet.com/",
+                "child_desc": "下一代js图片上传组件,节约服务器80%的带宽及硬盘容量，加快网站加载速度，降低服务器处理图片的负荷"
             }
         ]
     },
@@ -842,6 +896,12 @@
                 "img_src": "./img/thenounproject.png",
                 "a_href": "https://thenounproject.com/",
                 "child_desc": "icon下载"
+            },
+            {
+                "child_name": "Emoji searcher",
+                "img_src": "./img/Emojisearcher.png",
+                "a_href": "https://emoji.muan.co/",
+                "child_desc": "Emoji表情大全"
             }
         ]
     },
@@ -935,6 +995,12 @@
                 "img_src": "./img/lapa.png",
                 "a_href": "https://www.lapa.ninja/",
                 "child_desc": "Landing页灵感"
+            },
+            {
+                "child_name": "Cool Backgrounds",
+                "img_src": "./img/coolbackgrounds.png",
+                "a_href": "https://coolbackgrounds.io/",
+                "child_desc": "生成非常酷的彩色背景图像"
             }
         ]
     },
