@@ -1,6 +1,7 @@
 $(function () {
 
-    
+    NProgress.start();
+    NProgress.configure({ easing: 'ease', speed: 500 });
 
     // 点击导航事件
     $("#category").on("click","li", function () {
@@ -65,6 +66,9 @@ $(function () {
                 offset: 0,
                 throttle: 500
             });
+            $("img").on("load",()=>{
+                NProgress.done();
+            })
         }
     );
 

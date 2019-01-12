@@ -1001,6 +1001,12 @@
                 "img_src": "./img/coolbackgrounds.png",
                 "a_href": "https://coolbackgrounds.io/",
                 "child_desc": "生成非常酷的彩色背景图像"
+            },
+            {
+                "child_name": "365psd",
+                "img_src": "./img/365psd.png",
+                "a_href": "https://cn.365psd.com/",
+                "child_desc": "下载免费高品质的 PSD 文件、插图和图形。浏览我们的图库，快速找到心仪图像，商业使用完全免费。"
             }
         ]
     },
