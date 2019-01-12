@@ -33,39 +33,35 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>Web前端导航 - FrontEndNav前端开发网址导航</title>
-    <meta name="keywords" content="前端导航,程序员导航,前端开发学习,前端网址大全,前端教程,web-hub,网址导航,FrontEndNav,webhub">
+    <meta name="keywords" content="前端导航,程序员导航,前端开发学习,前端网址大全,前端教程,web-hub,网址导航,FrontEndNav">
     <meta name="description" content="web前端导航是Hulkye推出的前端导航，收录了大量高质量前端相关站点，为广大用户提供学习网站、学习方向、学习途径、最新前端框架等内容。收录国内外前端网站。">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="Author" content="Hulkye-YHR" />
     <meta name="Copyright" content="Hulkye-YHR" />
     <link rel="shortcut icon" href="img/logo.ico">
-    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./font/iconfont.css">
-    <link rel="stylesheet" href="./styles/nprogress.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./css/nprogress.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <div class="container" id="container">
         <div class="left-bar">
             <div class="title">
-                <h1>FrontEndNav</h1>
+                <p>FrontEndNav</p>
             </div>
-
-            <!-- 分类导航菜单 -->
             <div class="nav">
 
-                <div class="home active item">
+                <div class="home item active">
                     <a href="javascript:void(0);">
-                        <i class="iconfont">&#xeb88;</i> 前端网站导航
-                    </a>
+                        <i class="iconfont">&#xeb88;</i> 前端导航 </a>
                     <i class="hairlines"></i>
                 </div>
 
                 <div class="nav-item">
                     <div class="category-nav" id="category">
                         <ul>
-
+                            <!-- 导航目录树渲染 -->
                             <script id="CategoryId" type="text/html">
                             {{each list value index}}
                                 <li id="{{value.Category_id}}" class="{{index==0 ? 'active' : ''}}">
@@ -77,26 +73,29 @@
                             </script>
 
                         </ul>
-
+  
                     </div>
                 </div>
 
-            </div>
-            <!-- 我的github -->
-            <div class="my-link item">
-                <a href="https://github.com/Hulkye" id="mygithub">
-                    <i class="iconfont">&#xf1b4;</i>
-                </a>
+                <div class="item msg-board">
+                    <!-- <a href="javascript:void(0);">
+                        
+                    </a> -->
+                    <a href="https://github.com/Hulkye" id="mygithub">
+                        <i class="iconfont">&#xf1b4;</i>
+                    </a>
+                </div>
+
             </div>
         </div>
-
-        <!-- 主体内容 -->
+        
         <div class="main" id="mainWrap">
             <div id="mainContent">
-                <!-- 分类选项卡模板 -->
+
+                <!-- 分类内容卡渲染 -->
                 <script id="navItemId" type="text/html">
                 {{each list value index}}
-                <div class="itemCart" id="{{value.category_item}}">
+                <div class="fe" id="{{value.category_item}}">
 
                     <div class="sub-category">
                         <div>
@@ -110,7 +109,7 @@
                             <div class="item">
                                 <div class="logo">
                                     <img width="100%" class="loaded lazy" data-echo="{{value.img_src}}" src="holder.js/40x40?text=:)">
-                                    <span>{{value.child_name}}</span>
+                                    {{value.child_name}}
                                 </div>
                                 <div class="desc">
                                     {{value.child_desc}}
@@ -123,13 +122,16 @@
                 </div>
                 {{/each}}
                 </script>
+
+
             </div>
 
-            <!-- 尾部 -->
             <div class="footer">
+
                 <p>Hello World - Hulkye</p>
                 <div class="copyright">
                     <div>
+
                         Copyright © 2018
                         <a href="javascript:void(0);">
                             Web前端导航 by hulkye
@@ -137,10 +139,11 @@
                     </div>
                 </div>
             </div>
-
         </div>
+
     </div>
 
+    <!-- <div id="download_plus_animation"></div> -->
 </body>
 <script src="./js/jquery-1.12.4.min.js"></script>
 <script src="./js/holder.min.js"></script>

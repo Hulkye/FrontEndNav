@@ -1,0 +1,85 @@
+@charset "utf-8"; 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input{
+    margin: 0;
+    padding: 0;
+    /* 怪异盒子模型,看需求加 */
+    box-sizing: border-box;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+/* html { overflow-y: scroll; } */
+
+body{
+    font-size: 16px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    line-height: 1;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+/* 表格重置看需求加 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    /* 转化为块级容器,看需求加 */
+    display: block;
+    /* 继承父级颜色 */
+    color: inherit; 
+     /* 去除a标签在移动端的默认蓝色区域 */
+    -webkit-tap-highlight-color: transparent;
+}
+a:hover{
+    color: inherit; 
+    text-decoration: none; 
+}
+
+img{
+     /* 去掉图片默认的3px */
+    border: 0;
+    /* 转化为块级容器,看需求加 */
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+input{
+    /* 去除默认外轮廓线跟边框线 */
+    border: none;
+    outline: none;
+}
+ 
+ul,li,ol{
+    list-style: none;
+}
+
+/*清除浮动*/
+.clearfix::after {
+    content: ".";
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
