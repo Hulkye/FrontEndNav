@@ -48,7 +48,7 @@
 
 ## 贡献
 
-如果你有更好的网站推荐 ,  欢迎在[Issues][https://github.com/Hulkye/FrontEndNav/issues]中提出
+如果你有更好的网站推荐 ,  欢迎在[Issues](https://github.com/Hulkye/FrontEndNav/issues) 中提出
 
 数据如:
 
