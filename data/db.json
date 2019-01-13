@@ -743,6 +743,12 @@
                 "img_src": "./img/picdiet.png",
                 "a_href": "https://widget.picdiet.com/",
                 "child_desc": "下一代js图片上传组件,节约服务器80%的带宽及硬盘容量，加快网站加载速度，降低服务器处理图片的负荷"
+            },
+            {
+                "child_name": "imagesLoaded",
+                "img_src": "./img/imagesloaded.png",
+                "a_href": "https://github.com/desandro/imagesloaded",
+                "child_desc": "检测图片是否加载完成的插件"
             }
         ]
     },
@@ -901,6 +907,12 @@
                 "child_name": "Emoji searcher",
                 "img_src": "./img/Emojisearcher.png",
                 "a_href": "https://emoji.muan.co/",
+                "child_desc": "Emoji表情大全"
+            },
+            {
+                "child_name": "RPG-Awesome",
+                "img_src": "./img/RpgAwesome.png",
+                "a_href": "http://nagoshiashumari.github.io/Rpg-Awesome/",
                 "child_desc": "Emoji表情大全"
             }
         ]
