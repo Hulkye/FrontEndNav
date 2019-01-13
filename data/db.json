@@ -153,6 +153,24 @@
                 "child_desc": "jQuery API 中文文档 | jQuery API 中文在线手册 | jquery api 载 | jquery api chm"
             },
             {
+                "child_name": "vue.js中文文档",
+                "img_src": "./img/vuejs.png",
+                "a_href": "https://cn.vuejs.org/",
+                "child_desc": "vue.js官方中文文档"
+            },
+            {
+                "child_name": "Vue Router中文文档",
+                "img_src": "./img/vuejs.png",
+                "a_href": "https://router.vuejs.org/zh/",
+                "child_desc": "Vue Router官方中文文档"
+            },
+            {
+                "child_name": "Vuex中文文档",
+                "img_src": "./img/Vuex.png",
+                "a_href": "https://vuex.vuejs.org/zh/",
+                "child_desc": "Vuex官方中文文档"
+            },
+            {
                 "child_name": "npm 中文文档",
                 "img_src": "./img/npmjs.png",
                 "a_href": "https://www.npmjs.cn/",
