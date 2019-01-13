@@ -181,6 +181,12 @@
                 "img_src": "./img/nodeapp.png",
                 "a_href": "http://nodejs.cn/api/",
                 "child_desc": "nodejs中文网中文文档"
+            },
+            {
+                "child_name": "TypeScript中文网",
+                "img_src": "./img/TypeScriptcn.png",
+                "a_href": "https://www.tslang.cn/",
+                "child_desc": "TypeScript中文网中文文档"
             }
         ]
     },
@@ -256,12 +262,6 @@
                 "img_src": "./img/zcfy.png",
                 "a_href": "https://zcfy.cc/",
                 "child_desc": "中国最好的技术翻译社区，最懂译者的翻译平台，奇虎360最大前端团队“奇舞团”出品"
-            },
-            {
-                "child_name": "InfoQ",
-                "img_src": "./img/infoq.png",
-                "a_href": "https://www.infoq.cn/",
-                "child_desc": "InfoQ 是一个实践驱动的社区资讯站点，致力于促进软件开发领域知识与创新的传播。"
             },
             {
                 "child_name": "InfoQ",
