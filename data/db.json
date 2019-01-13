@@ -256,6 +256,30 @@
                 "img_src": "./img/zcfy.png",
                 "a_href": "https://zcfy.cc/",
                 "child_desc": "中国最好的技术翻译社区，最懂译者的翻译平台，奇虎360最大前端团队“奇舞团”出品"
+            },
+            {
+                "child_name": "InfoQ",
+                "img_src": "./img/infoq.png",
+                "a_href": "https://www.infoq.cn/",
+                "child_desc": "InfoQ 是一个实践驱动的社区资讯站点，致力于促进软件开发领域知识与创新的传播。"
+            },
+            {
+                "child_name": "InfoQ",
+                "img_src": "./img/infoq.png",
+                "a_href": "https://www.infoq.cn/",
+                "child_desc": "InfoQ 是一个实践驱动的社区资讯站点，致力于促进软件开发领域知识与创新的传播。"
+            },
+            {
+                "child_name": "IBM-developerworks",
+                "img_src": "./img/IBMdeveloperworks.png",
+                "a_href": "https://www.ibm.com/developerworks/cn/",
+                "child_desc": "IBM developerWorks，IBM 的官方开发者项目。学习资源，开发工具，和技术社区。"
+            },
+            {
+                "child_name": "知乎",
+                "img_src": "./img/zhihu.png",
+                "a_href": "https://www.zhihu.com/",
+                "child_desc": "每日必刷，可以关注前端开发等话题"
             }
         ]
     },
@@ -406,6 +430,12 @@
                 "img_src": "./img/souche.png",
                 "a_href": "http://f2e.souche.com/blog/",
                 "child_desc": "前端网红 小芋头君 所在的团队，文章质量高，尤其是 Node 方向的"
+            },
+            {
+                "child_name": "微软开发者网络MSDN",
+                "img_src": "./img/msdnmicrosoft.png",
+                "a_href": "https://msdn.microsoft.com/zh-cn/",
+                "child_desc": "使用 Microsoft Developer Network 学习开发 | MSDN"
             }
             
         ]
@@ -913,7 +943,7 @@
                 "child_name": "RPG-Awesome",
                 "img_src": "./img/RpgAwesome.png",
                 "a_href": "http://nagoshiashumari.github.io/Rpg-Awesome/",
-                "child_desc": "Emoji表情大全"
+                "child_desc": "icon下载"
             }
         ]
     },
