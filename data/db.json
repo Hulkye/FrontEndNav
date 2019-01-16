@@ -118,6 +118,12 @@
                 "img_src": "./img/ciaoca.png",
                 "a_href": "http://code.ciaoca.com/",
                 "child_desc": "Web前端开发仓库，收录常用的JavaScript及jQuery插件，并提供在线演示效果。"
+            },
+            {
+                "child_name": "learnGitBranching",
+                "img_src": "./img/learnGitBranching.png",
+                "a_href": "https://github.com/pcottle/learnGitBranching",
+                "child_desc": "learnGitBranching是一个git仿真沙盒，提供一系列的交互式学习指导/挑战，用来加快学习git提交树如何工作。learnGitBranching的主界面左边是模拟终端窗口，另外是图示区。图示区用图形表明了git代码库当前的提交记录、分支、HEAD指向等。 目前有法语、韩语、日语以及中文版本。"
             }
         ]
     },
@@ -788,7 +794,14 @@
                 "img_src": "./img/imagesloaded.png",
                 "a_href": "https://github.com/desandro/imagesloaded",
                 "child_desc": "检测图片是否加载完成的插件"
+            },
+            {
+                "child_name": "quicklink",
+                "img_src": "./img/quicklink.png",
+                "a_href": "https://github.com/GoogleChromeLabs/quicklink",
+                "child_desc": "quicklink 是一个通过预加载资源来提升后续方案速度的轻量级工具库。旨在提升浏览过程中，用户访问后续页面时的加载速度。"
             }
+            
         ]
     },
 
