@@ -210,10 +210,10 @@
     },
 
     {
-        "Category_id": "community",
-        "category_CN": "技术社区",
-        "category_icon": "icon-zhishishequ",
-        "category_item": "communityItem",
+        "Category_id": "portalsCommunity",
+        "category_CN": "门户&社区",
+        "category_icon": "icon-songmenhuwangzhan",
+        "category_item": "portalsCommunityItem",
         "item_children": [
             {
                 "child_name": "GitHub",
@@ -298,16 +298,7 @@
                 "img_src": "./img/zhihu.png",
                 "a_href": "https://www.zhihu.com/",
                 "child_desc": "每日必刷，可以关注前端开发等话题"
-            }
-        ]
-    },
-
-    {
-        "Category_id": "portals",
-        "category_CN": "前端门户",
-        "category_icon": "icon-songmenhuwangzhan",
-        "category_item": "portalsItem",
-        "item_children": [
+            },
             {
                 "child_name": "w3cplus",
                 "img_src": "./img/w3cplus.png",

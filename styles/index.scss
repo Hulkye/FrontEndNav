@@ -1,10 +1,12 @@
+$navbarCL: #222831;
+
+
 body {
     font-size: 12px;
     color: #4d4d4d;
     -webkit-overflow-scrolling: touch;
     font-family: PingFangSC-Regular, Helvetica Neue, Microsoft Yahei, 微软雅黑
 }
-
 
 
 .container,
@@ -17,13 +19,13 @@ body {
 
         // 左侧导航栏
         .left-bar {
-            width: 250px;
+            width: 250px; 
             height: 100vh;
             // display: flex;
             // flex-direction: column;
             // justify-content: space-between;
             // align-items: center;
-            background-color: #222831;
+            background-color: $navbarCL;
             color: #6b7386;
             padding: 0 24px;
             position: relative;
@@ -84,7 +86,7 @@ body {
                     &::-webkit-scrollbar {
                         width: 5px;
                         height: 16px;
-                        background-color: #222831;
+                        background-color: $navbarCL;
                     }
 
                     /*定义滚动条轨道 内阴影+圆角*/
@@ -126,7 +128,7 @@ body {
                 bottom: 1px;
                 right: 24px;
                 width: 202px;
-                background: #222831;
+                background: $navbarCL;
 
                 >a {
                     text-align: center;
@@ -164,6 +166,8 @@ body {
         position: fixed;
         padding: 0 24px;
         z-index: 10000;
+        left: 0;
+        top: 0; 
 
         .title p {
             text-align: center

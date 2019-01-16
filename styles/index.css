@@ -124,6 +124,8 @@ body {
   position: fixed;
   padding: 0 24px;
   z-index: 10000;
+  left: 0;
+  top: 0;
 }
 
 .container .left-bar .title p {

@@ -1,7 +1,7 @@
 <!--
-              _.._        ,+++++++++++++++++++++++++++++++++++++++++++++++++.
+              _.._        ,+++++++++++++++++++++++++++++++++++++++++++++++++++++++.
             ,'      `.    ( come here stars! https://github.com/Hulkye/FrontEndNav )
-          /  __) __` \    `-,+++++++++++++++++++++++++++++++++++++++++++++++'
+          /  __) __` \    `-,+++++++++++++++++++++++++++++++++++++++++++++++++++++'
           (  (`-`(-')  ) _______________________.-'
           /)  \  = /  (
         /'    |++' .  \
@@ -51,13 +51,13 @@
             <div class="title">
                 <h1>FrontEndNav</h1>
             </div>
-
+            
             <!-- 分类导航菜单 -->
             <div class="nav">
 
                 <div class="home active item">
                     <a href="javascript:void(0);">
-                        <i class="iconfont">&#xeb88;</i> 前端网站导航
+                        <i class="iconfont icon-icon_fabu"></i> 前端网站导航
                     </a>
                     <i class="hairlines"></i>
                 </div>
@@ -65,7 +65,7 @@
                 <div class="nav-item">
                     <div class="category-nav" id="category">
                         <ul>
-
+                            <!-- 导航栏分类渲染 -->
                             <script id="CategoryId" type="text/html">
                             {{each list value index}}
                                 <li id="{{value.Category_id}}" class="{{index==0 ? 'active' : ''}}">
@@ -85,7 +85,7 @@
             <!-- 我的github -->
             <div class="my-link item">
                 <a href="https://github.com/Hulkye" id="mygithub">
-                    <i class="iconfont">&#xf1b4;</i>
+                    <i class="iconfont icon-github2"></i>
                 </a>
             </div>
         </div>
@@ -93,11 +93,11 @@
         <!-- 主体内容 -->
         <div class="main" id="mainWrap">
             <div id="mainContent">
+
                 <!-- 分类选项卡模板 -->
                 <script id="navItemId" type="text/html">
                 {{each list value index}}
                 <div class="itemCart" id="{{value.category_item}}">
-
                     <div class="sub-category">
                         <div>
                             <i class="iconfont {{value.category_icon}}"></i>
@@ -119,10 +119,10 @@
                         </a>
                         {{/each}}
                     </div>
-
                 </div>
                 {{/each}}
                 </script>
+
             </div>
 
             <!-- 尾部 -->
