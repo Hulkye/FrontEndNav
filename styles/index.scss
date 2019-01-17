@@ -313,6 +313,10 @@ body {
       /* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
       opacity: .5;
     }
+    img{
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .no-touch .goTop:hover {
