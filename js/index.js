@@ -52,6 +52,8 @@ $(function () {
     $('#category > ul').html(categoryHTML);
     $("#mainContent").html(navItemHTML);
 
+    goTop();
+
     Echo.init({
       offset: 0,
       throttle: 500
@@ -70,11 +72,11 @@ $(function () {
   );
 
   // ============================返回顶部业务==============================
-  (function () {
+  function goTop() {
     let offset = 300,
-      offset_opacity = 1200,
-      scroll_top_duration = 700,
-      $goTopBtn = $('.goTop');
+        offset_opacity = 1200,
+        scroll_top_duration = 700,
+        $goTopBtn = $('.goTop');
 
     // c窗口滚动事件
     $(window).scroll(function () {
@@ -91,7 +93,7 @@ $(function () {
         scrollTop: 0,
       }, scroll_top_duration);
     });
-  })()
+  }
 
 
 });
