@@ -58,7 +58,7 @@ $(function () {
     // 监听图片加载完成
     var img_length = $("img").length;
     $("img").on("load", () => {
-      img_length--
+      img_length--;
       if (img_length >= 1) {
         return;
       } else {

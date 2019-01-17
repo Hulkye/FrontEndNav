@@ -772,7 +772,7 @@
       },
       {
         "child_name": "Echo.js",
-        "img_src": "./img/echojs.gif",
+        "img_src": "./img/echojs.png",
         "a_href": "https://github.com/toddmotto/echo",
         "child_desc": "简单的JavaScript轻量级图像延迟加载库"
       },
