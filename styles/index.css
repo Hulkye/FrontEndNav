@@ -30,7 +30,7 @@ body {
     text-align: center;
     color: #fff;
     display: block;
-    text-shadow: #253e45 -1px 1px 0, #253e45 -2px 2px 0, #3a85ff -3px 3px 0, #3a85ff -4px 4px 0;
+    text-shadow: #253e45 -1px 1px 0, #253e45 -2px 2px 0, #3a85ff -3px 3px 0, #3a85ff -4px 4px 0;
   }
   .container .left-bar .item {
     height: 48px;
@@ -115,8 +115,8 @@ body {
     box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
     -webkit-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
     -moz-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
 }
 
@@ -198,7 +198,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding: 0 .1rem;
+  padding: 0 0.1rem;
 }
 
 .container .main .itemCart .item .logo img {
@@ -249,6 +249,39 @@ body {
   color: #3a85ff;
 }
 
+.container .goTop {
+  display: block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+.container .goTop.btn-is-visible {
+  /* 按钮可见 */
+  visibility: visible;
+  opacity: 1;
+}
+
+.container .goTop.btn-fade-out {
+  /* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
+  opacity: .5;
+}
+
+.container .no-touch .goTop:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
 @media (max-width: 480px) {
   .container .left-bar {
     position: fixed;
@@ -290,7 +323,7 @@ body {
   }
   .container .left-bar .nav ul li {
     display: inline-block;
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     line-height: 40px;
     font-size: 14px;
   }
@@ -365,6 +398,10 @@ body {
   .container .footer .copyright > div {
     text-align: center;
   }
+  .container .goTop {
+    right: 20px;
+    bottom: 20px;
+  }
 }
 
 @media (min-width: 481px) {
@@ -383,6 +420,12 @@ body {
 @media (min-width: 1040px) {
   .container .main .itemCart .item {
     width: 29%;
+  }
+  .goTop {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
   }
 }
 

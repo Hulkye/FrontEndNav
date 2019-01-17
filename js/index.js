@@ -44,6 +44,7 @@ $(function () {
 
   });
 
+  // ============================数据请求业务==============================
   $.getJSON("https://raw.githubusercontent.com/Hulkye/FrontEndNav/master/data/db.json", (res) => {
     // 页面渲染
     var categoryHTML = template("CategoryId", { list: res });
@@ -67,6 +68,30 @@ $(function () {
     })
   }
   );
+
+  // ============================返回顶部业务==============================
+  (function () {
+    let offset = 300,
+      offset_opacity = 1200,
+      scroll_top_duration = 700,
+      $goTopBtn = $('.goTop');
+
+    // c窗口滚动事件
+    $(window).scroll(function () {
+      ($(this).scrollTop() > offset) ? $goTopBtn.addClass('btn-is-visible') : $goTopBtn.removeClass('btn-is-visible btn-fade-out');
+      if ($(this).scrollTop() > offset_opacity) {
+        $goTopBtn.addClass('btn-fade-out');
+      }
+    });
+
+    // 返回顶部按钮点击事件
+    $goTopBtn.on('click', function (event) {
+      event.preventDefault();
+      $('body,html').animate({
+        scrollTop: 0,
+      }, scroll_top_duration);
+    });
+  })()
 
 
 });
