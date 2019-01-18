@@ -502,6 +502,12 @@
         "img_src": "./img/Zepto.jpg",
         "a_href": "https://github.com/madrobby/zepto",
         "child_desc": "Zepto最初是为移动端开发的库,是jQuery的轻量级替代品"
+      },
+      {
+        "child_name": "iView",
+        "img_src": "./img/iview.png",
+        "a_href": "https://www.iviewui.com/",
+        "child_desc": "一套基于 Vue.js 的高质量 UI 组件库"
       }
     ]
   },
