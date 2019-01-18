@@ -278,11 +278,6 @@ body {
   opacity: .5;
 }
 
-.container .goTop:hover {
-  background-color: #6ba4f8;
-  opacity: 1;
-}
-
 .container .goTop img {
   width: 100%;
   height: 100%;

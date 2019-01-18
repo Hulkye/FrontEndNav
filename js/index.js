@@ -72,14 +72,15 @@ $(function () {
   );
 
   // ============================返回顶部业务==============================
-  function goTop() {
+  function goTop () {
     let offset = 300,
-        offset_opacity = 1200,
-        scroll_top_duration = 700,
-        $goTopBtn = $('.goTop');
+      offset_opacity = 1200,
+      scroll_top_duration = 700,
+      $goTopBtn = $('.goTop');
 
     // c窗口滚动事件
     $(window).scroll(function () {
+      $goTopBtn.removeClass('.goTop:hover');
       ($(this).scrollTop() > offset) ? $goTopBtn.addClass('btn-is-visible') : $goTopBtn.removeClass('btn-is-visible btn-fade-out');
       if ($(this).scrollTop() > offset_opacity) {
         $goTopBtn.addClass('btn-fade-out');
