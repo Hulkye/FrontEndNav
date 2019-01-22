@@ -124,6 +124,18 @@
         "img_src": "./img/learnGitBranching.png",
         "a_href": "https://github.com/pcottle/learnGitBranching",
         "child_desc": "learnGitBranching是一个git仿真沙盒，提供一系列的交互式学习指导/挑战，用来加快学习git提交树如何工作。learnGitBranching的主界面左边是模拟终端窗口，另外是图示区。图示区用图形表明了git代码库当前的提交记录、分支、HEAD指向等。 目前有法语、韩语、日语以及中文版本。"
+      },
+      {
+        "child_name": "计算机书籍控",
+        "img_src": "./img/bestcbooks.png",
+        "a_href": "http://bestcbooks.com/",
+        "child_desc": "Best Computer Books, 整理最全最经典的计算机书籍,提供PDF下载"
+      },
+      {
+        "child_name": "前端九部-入门者手册2019",
+        "img_src": "./img/fe9.png",
+        "a_href": "https://www.yuque.com/fe9/basic",
+        "child_desc": "九部成员合著的web前端开发零基础入门手册"
       }
     ]
   },
@@ -531,6 +543,12 @@
         "child_desc": "给 CSS 加点料,是一门向后兼容的 CSS 扩展语言。"
       },
       {
+        "child_name": "Stylus",
+        "img_src": "./img/stylus.png",
+        "a_href": "http://stylus-lang.com/",
+        "child_desc": "富有表现力的、动态的、健壮的CSS"
+      },
+      {
         "child_name": "Animate.css",
         "img_src": "./img/animatecss.jpg",
         "a_href": "https://daneden.github.io/animate.css/",
@@ -583,7 +601,26 @@
         "img_src": "./img/caniuse.png",
         "a_href": "https://caniuse.com/",
         "child_desc": "一个检测浏览器对JS、HTML5、CSS、SVG或者其他Web前端相关特性支持程度的列表。"
+      },
+      {
+        "child_name": "A Single Div",
+        "img_src": "./img/asinglediv.png",
+        "a_href": "https://a.singlediv.com/",
+        "child_desc": "纯CSS实现的div图片盒子,很有意思"
+      },
+      {
+        "child_name": "30 Seconds of CSS",
+        "img_src": "./img/30-seconds-of-css.png",
+        "a_href": "https://30-seconds.github.io/30-seconds-of-css/",
+        "child_desc": "收集了常用的CSS代码段,你可以通过30秒或者更少的时间去了解它"
+      },
+      {
+        "child_name": "CSS Inspiration -- CSS灵感",
+        "img_src": "./img/CSS-Inspiration.png",
+        "a_href": "https://chokcoco.github.io/CSS-Inspiration/#/",
+        "child_desc": "学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。"
       }
+
     ]
   },
 
