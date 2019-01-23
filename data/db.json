@@ -914,6 +914,30 @@
         "img_src": "./img/babel.png",
         "a_href": "https://www.babeljs.cn/",
         "child_desc": "Babel 是一个 JavaScript 编译器。"
+      },
+      {
+        "child_name": "npm",
+        "img_src": "./img/npmjs.png",
+        "a_href": "https://www.npmjs.com/",
+        "child_desc": "通过 npm 可以安装、共享、分发代码,管理项目依赖关系。"
+      },
+      {
+        "child_name": "yarn",
+        "img_src": "./img/yarnpkg.png",
+        "a_href": "https://www.yarnpkg.com/zh-Hans/",
+        "child_desc": "快速、可靠、安全的依赖管理。"
+      },
+      {
+        "child_name": "bower",
+        "img_src": "./img/bower.png",
+        "a_href": "https://bower.io/",
+        "child_desc": "bower是一种包管理器,它可用于搜索、安装和卸载如JavaScript、HTML、CSS之类的网络资源。"
+      },
+      {
+        "child_name": "PostCSS",
+        "img_src": "./img/postcss.png",
+        "a_href": "https://www.postcss.com.cn/",
+        "child_desc": "是一个用 JavaScript 工具和插件转换 CSS 代码的工具"
       }
     ]
   },
