@@ -519,14 +519,14 @@
   },
 
   {
-    "Category_id": "jsAbout",
-    "category_CN": "Js相关",
+    "Category_id": "JavaScriptAbout",
+    "category_CN": "JavaScript相关",
     "category_icon": "icon-js",
-    "category_item": "jsAboutItem",
+    "category_item": "JavaScriptAboutItem",
     "item_children": [
       {
         "child_name": "JavaScript开发者应懂的33个概念",
-        "img_src": "./img/33_js_concepts",
+        "img_src": "./img/33_js_concepts.png",
         "a_href": "https://github.com/stephentian/33-js-concepts/blob/master/README.md",
         "child_desc": "这个项目是为了帮助开发者掌握 JavaScript 概念而创立的。它不是必备，但在未来学习（JavaScript）中，可以作为一篇指南。"
       },
@@ -541,6 +541,12 @@
         "img_src": "./img/es6.png",
         "a_href": "http://es6.ruanyifeng.com/#README",
         "child_desc": "阮一峰的《ECMAScript 6入门》"
+      },
+      {
+        "child_name": "30 seconds of code",
+        "img_src": "./img/30secondsofcode.png",
+        "a_href": "https://30secondsofcode.org/",
+        "child_desc": "分享了大量有用的Javascript片段,你可以在30秒或更少时间中理解。"
       }
     ]
   },
