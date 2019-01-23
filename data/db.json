@@ -217,6 +217,12 @@
         "img_src": "./img/TypeScriptcn.png",
         "a_href": "https://www.tslang.cn/",
         "child_desc": "TypeScript中文网中文文档"
+      },
+      {
+        "child_name": "Flutter",
+        "img_src": "./img/flutter.png",
+        "a_href": "https://flutterchina.club/",
+        "child_desc": "Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。"
       }
     ]
   },
@@ -514,6 +520,12 @@
         "img_src": "./img/iview.png",
         "a_href": "https://www.iviewui.com/",
         "child_desc": "一套基于 Vue.js 的高质量 UI 组件库"
+      },
+      {
+        "child_name": "Flutter",
+        "img_src": "./img/flutter.png",
+        "a_href": "https://flutter.io/",
+        "child_desc": "Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。"
       }
     ]
   },
