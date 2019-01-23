@@ -60,12 +60,6 @@
         "child_desc": "系统的介绍某些知识点，帮助开发者正确理解该知识点的概念及与其他知识点的关联性，梳理知识体系。"
       },
       {
-        "child_name": "JavaScript 秘密花园",
-        "img_src": "./img/JavaScript-Garden.png",
-        "a_href": "http://bonsaiden.github.io/JavaScript-Garden/zh/",
-        "child_desc": "JavaScript 细节点分析"
-      },
-      {
         "child_name": "前端开发者手册",
         "img_src": "./img/frontenddevhandbook.png",
         "a_href": "https://dwqs.gitbooks.io/frontenddevhandbook/content/",
@@ -108,12 +102,6 @@
         "child_desc": "最全的 head 列表，真心佩服这种偏执的整理能力"
       },
       {
-        "child_name": "ECMAScript 6 入门",
-        "img_src": "./img/es6.png",
-        "a_href": "http://es6.ruanyifeng.com/#README",
-        "child_desc": "阮一峰的《ECMAScript 6入门》"
-      },
-      {
         "child_name": "前端开发仓库",
         "img_src": "./img/ciaoca.png",
         "a_href": "http://code.ciaoca.com/",
@@ -136,6 +124,12 @@
         "img_src": "./img/fe9.png",
         "a_href": "https://www.yuque.com/fe9/basic",
         "child_desc": "九部成员合著的web前端开发零基础入门手册"
+      },
+      {
+        "child_name": "力扣-LeetCode",
+        "img_src": "./img/leetcode.png",
+        "a_href": "https://leetcode-cn.com/",
+        "child_desc": "码，码不停题. 全球极客挚爱的高质量技术成长平台，想要学习和提升专业能力从这里开始，充足技术干货等你来啃，轻松拿下 Dream Offer！"
       }
     ]
   },
@@ -520,6 +514,33 @@
         "img_src": "./img/iview.png",
         "a_href": "https://www.iviewui.com/",
         "child_desc": "一套基于 Vue.js 的高质量 UI 组件库"
+      }
+    ]
+  },
+
+  {
+    "Category_id": "jsAbout",
+    "category_CN": "Js相关",
+    "category_icon": "icon-js",
+    "category_item": "jsAboutItem",
+    "item_children": [
+      {
+        "child_name": "JavaScript开发者应懂的33个概念",
+        "img_src": "./img/33_js_concepts",
+        "a_href": "https://github.com/stephentian/33-js-concepts/blob/master/README.md",
+        "child_desc": "这个项目是为了帮助开发者掌握 JavaScript 概念而创立的。它不是必备，但在未来学习（JavaScript）中，可以作为一篇指南。"
+      },
+      {
+        "child_name": "JavaScript 秘密花园",
+        "img_src": "./img/JavaScript-Garden.png",
+        "a_href": "http://bonsaiden.github.io/JavaScript-Garden/zh/",
+        "child_desc": "JavaScript 细节点分析"
+      },
+      {
+        "child_name": "ECMAScript 6 入门",
+        "img_src": "./img/es6.png",
+        "a_href": "http://es6.ruanyifeng.com/#README",
+        "child_desc": "阮一峰的《ECMAScript 6入门》"
       }
     ]
   },
