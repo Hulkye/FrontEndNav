@@ -670,6 +670,12 @@
     "category_item": "codeSourceItem",
     "item_children": [
       {
+        "child_name": "microjs",
+        "img_src": "./img/microjs.png",
+        "a_href": "http://microjs.com/#",
+        "child_desc": "迷你前端开发框架和类库资源收集,前端开发工程师必备的网站, 网站收集了各种各样的框架和代码"
+      },
+      {
         "child_name": "jQuery插件库",
         "img_src": "./img/jq22.png",
         "a_href": "http://www.jq22.com/",
