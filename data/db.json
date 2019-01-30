@@ -171,18 +171,6 @@
         "child_desc": "vue.js官方中文文档"
       },
       {
-        "child_name": "Vue Router中文文档",
-        "img_src": "./img/vuejs.png",
-        "a_href": "https://router.vuejs.org/zh/",
-        "child_desc": "Vue Router官方中文文档"
-      },
-      {
-        "child_name": "Vuex中文文档",
-        "img_src": "./img/Vuex.png",
-        "a_href": "https://vuex.vuejs.org/zh/",
-        "child_desc": "Vuex官方中文文档"
-      },
-      {
         "child_name": "npm 中文文档",
         "img_src": "./img/npmjs.png",
         "a_href": "https://www.npmjs.cn/",
@@ -1076,6 +1064,18 @@
         "img_src": "./img/RpgAwesome.png",
         "a_href": "http://nagoshiashumari.github.io/Rpg-Awesome/",
         "child_desc": "icon下载"
+      },
+      {
+        "child_name": "gitmoji",
+        "img_src": "./img/gitmoji.png",
+        "a_href": "https://gitmoji.carloscuesta.me/",
+        "child_desc": "可以使用在github上的emoji图标"
+      },
+      {
+        "child_name": "Emoji Cheat Sheet",
+        "img_src": "./img/emoji-cheat-sheet.png",
+        "a_href": "https://www.webfx.com/tools/emoji-cheat-sheet/",
+        "child_desc": "可以使用在github上的emoji图标"
       }
     ]
   },
@@ -1186,6 +1186,93 @@
   },
 
   {
+    "Category_id": "vueEcology",
+    "category_CN": "Vue生态",
+    "category_icon": "icon-vuejs1",
+    "category_item": "vueEcologyItem",
+    "item_children": [
+      {
+        "child_name": "Vue",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://cn.vuejs.org/",
+        "child_desc": "一套用于构建用户界面的渐进式框架.简单却不失优雅,小巧而不乏大匠"
+      },
+      {
+        "child_name": "Vue Router",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://router.vuejs.org/zh/",
+        "child_desc": "Vue Router官方中文文档"
+      },
+      {
+        "child_name": "Vuex",
+        "img_src": "./img/Vuex.png",
+        "a_href": "https://vuex.vuejs.org/zh/",
+        "child_desc": "Vuex官方中文文档"
+      },
+      {
+        "child_name": "Vue CLI",
+        "img_src": "./img/vuejs.png",
+        "a_href": "https://cli.vuejs.org/zh/",
+        "child_desc": "Vue.js 官方脚手架工具"
+      },
+      {
+        "child_name": "ElementUI",
+        "img_src": "./img/element.png",
+        "a_href": "http://element-cn.eleme.io/#/zh-CN",
+        "child_desc": "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+      },
+      {
+        "child_name": "vant",
+        "img_src": "./img/vant.png",
+        "a_href": "https://youzan.github.io/vant/#/zh-CN/intro",
+        "child_desc": "有赞团队出品的轻量、可靠的移动端 Vue 组件库"
+      },
+      {
+        "child_name": "cube-ui",
+        "img_src": "./img/cube-ui.png",
+        "a_href": "https://didi.github.io/cube-ui/#/zh-CN",
+        "child_desc": "滴滴团队基于 Vue.js 实现的精致移动端组件库"
+      },
+      {
+        "child_name": "mint-ui",
+        "img_src": "./img/mint-ui.png",
+        "a_href": "http://mint-ui.github.io/#!/zh-cn",
+        "child_desc": "饿了么团队出品的基于 Vue.js 的移动端组件库"
+      },
+      {
+        "child_name": "Vux",
+        "img_src": "./img/vux.png",
+        "a_href": "https://vux.li/#/zh-CN/README",
+        "child_desc": "一个凑合的 Vue.js 移动端 UI 组件库"
+      },
+      {
+        "child_name": "Vuetifyjs",
+        "img_src": "./img/vuetifyjs.png",
+        "a_href": "https://vuetifyjs.com/zh-Hans/",
+        "child_desc": "一个高品质综合实用性、体验、格调的框架"
+      },
+      {
+        "child_name": "Quasar",
+        "img_src": "./img/Quasar.png",
+        "a_href": "https://quasar-framework.org/",
+        "child_desc": "较成熟的组件库，大名鼎鼎，组件丰富到变态~"
+      },
+      {
+        "child_name": "Vuesax",
+        "img_src": "./img/vuesax.png",
+        "a_href": "https://lusaxweb.github.io/vuesax/#/",
+        "child_desc": "有若干常用组件，但有着非常美妙的色彩和反馈效果，充满活力与灵气"
+      },
+      {
+        "child_name": "Vue资源精选",
+        "img_src": "./img/vueawesometiny.png.png",
+        "a_href": "http://vue.awesometiny.com/",
+        "child_desc": "vue资源精选-前端组件库资源-前端选型"
+      }
+    ]
+  },
+
+  {
     "Category_id": "blog",
     "category_CN": "大牛博客",
     "category_icon": "icon-fanshe",
@@ -1266,6 +1353,12 @@
     "category_icon": "icon-chrome",
     "category_item": "chromeItem",
     "item_children": [
+      {
+        "child_name": "扩展迷 - 谷歌扩展商店",
+        "img_src": "./img/extfans.png",
+        "a_href": "https://extfans.com/",
+        "child_desc": "扩展迷为您推荐优秀的Chrome扩展与插件，为您提供Chrome扩展与插件的离线安装包下载。"
+      },
       {
         "child_name": "WEB前端助手(FeHelper)",
         "img_src": "./img/FeHelper.png",
