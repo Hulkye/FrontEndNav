@@ -1265,7 +1265,7 @@
       },
       {
         "child_name": "Vue资源精选",
-        "img_src": "./img/vueawesometiny.png.png",
+        "img_src": "./img/vueawesometiny.png",
         "a_href": "http://vue.awesometiny.com/",
         "child_desc": "vue资源精选-前端组件库资源-前端选型"
       }
