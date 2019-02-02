@@ -130,6 +130,12 @@
         "img_src": "./img/leetcode.png",
         "a_href": "https://leetcode-cn.com/",
         "child_desc": "码，码不停题. 全球极客挚爱的高质量技术成长平台，想要学习和提升专业能力从这里开始，充足技术干货等你来啃，轻松拿下 Dream Offer！"
+      },
+      {
+        "child_name": "CODE",
+        "img_src": "./img/code.png",
+        "a_href": "https://studio.code.org/",
+        "child_desc": "适用于初级的免费游戏式编程教学"
       }
     ]
   },
@@ -211,6 +217,12 @@
         "img_src": "./img/flutter.png",
         "a_href": "https://flutterchina.club/",
         "child_desc": "Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。"
+      },
+      {
+        "child_name": "html5 Platform",
+        "img_src": "./img/platform.png",
+        "a_href": "https://platform.html5.org/",
+        "child_desc": "HTML5的web浏览技术图谱"
       }
     ]
   },
@@ -468,12 +480,6 @@
         "child_desc": "jQuery是一个快速、简洁的JavaScript框架."
       },
       {
-        "child_name": "Bootstrap",
-        "img_src": "./img/bootcss.jpg",
-        "a_href": "http://www.bootcss.com/",
-        "child_desc": "简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。"
-      },
-      {
         "child_name": "Vue",
         "img_src": "./img/vuejs.png",
         "a_href": "https://cn.vuejs.org/",
@@ -487,15 +493,15 @@
       },
       {
         "child_name": "Angular",
-        "img_src": "./img/angular.jpg",
+        "img_src": "./img/angular.png",
         "a_href": "https://www.angular.cn/",
         "child_desc": "一套框架，多种平台移动端 & 桌面端"
       },
       {
-        "child_name": "Element",
-        "img_src": "./img/element.png",
-        "a_href": "http://element-cn.eleme.io/#/zh-CN",
-        "child_desc": "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+        "child_name": "AngularJs",
+        "img_src": "./img/angularjs.jpg",
+        "a_href": "http://www.angularjs.net.cn/",
+        "child_desc": "Google推出的MVVM框架"
       },
       {
         "child_name": "Zepto",
@@ -504,16 +510,133 @@
         "child_desc": "Zepto最初是为移动端开发的库,是jQuery的轻量级替代品"
       },
       {
+        "child_name": "Flutter",
+        "img_src": "./img/flutter.png",
+        "a_href": "https://flutter.io/",
+        "child_desc": "Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。"
+      },
+      {
+        "child_name": "Backbone",
+        "img_src": "./img/backbone.jpg",
+        "a_href": "https://github.com/jashkenas/backbone",
+        "child_desc": "一套web开发框架,基于jQuery和underscore的一个前端js框架。"
+      },
+      {
+        "child_name": "Ember.js",
+        "img_src": "./img/ember.jpg",
+        "a_href": "https://www.emberjs.com/",
+        "child_desc": "一个用于创建 web 应用的 JavaScript MVC 框架"
+      },
+      {
+        "child_name": "mpvue",
+        "img_src": "./img/mpvue.png",
+        "a_href": "http://mpvue.com/",
+        "child_desc": "基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系"
+      },
+      {
+        "child_name": "Preact",
+        "img_src": "./img/preact.png",
+        "a_href": "https://preactjs.com/",
+        "child_desc": "一个快速轻量的 React 替代方案，具有 ES6 API、组件化和虚拟 DOM"
+      }
+    ]
+  },
+
+  {
+    "Category_id": "UIFrame",
+    "category_CN": "UI框架",
+    "category_icon": "icon-iframetianjia",
+    "category_item": "UIFrameItem",
+    "item_children": [
+      {
+        "child_name": "Bootstrap",
+        "img_src": "./img/bootcss.jpg",
+        "a_href": "http://www.bootcss.com/",
+        "child_desc": "简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。"
+      },
+      {
+        "child_name": "Foundation",
+        "img_src": "./img/foundation.png",
+        "a_href": "https://foundation.zurb.com/",
+        "child_desc": "一个易用、强大而且灵活的框架,用于构建基于任何设备上的 Web 应用。"
+      },
+      {
+        "child_name": "Pure.css",
+        "img_src": "./img/purecss.png",
+        "a_href": "https://purecss.io/",
+        "child_desc": "雅虎公司出品的一组轻量级、响应式纯css模块,适用于任何Web项目"
+      },
+      {
+        "child_name": "Semantic UI",
+        "img_src": "./img/semanticui.png",
+        "a_href": "https://semantic-ui.com/",
+        "child_desc": "一个用来帮助设计出漂亮的、响应化、人性化的网络框架"
+      },
+      {
+        "child_name": "Material UI",
+        "img_src": "./img/material-ui.png",
+        "a_href": "https://material-ui.com/",
+        "child_desc": "一组反应元件，实现谷歌的材料设计"
+      },
+      {
+        "child_name": "Element",
+        "img_src": "./img/element.png",
+        "a_href": "http://element-cn.eleme.io/#/zh-CN",
+        "child_desc": "一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+      },
+      {
         "child_name": "iView",
         "img_src": "./img/iview.png",
         "a_href": "https://www.iviewui.com/",
         "child_desc": "一套基于 Vue.js 的高质量 UI 组件库"
       },
       {
-        "child_name": "Flutter",
-        "img_src": "./img/flutter.png",
-        "a_href": "https://flutter.io/",
-        "child_desc": "Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。"
+        "child_name": "Ant Design",
+        "img_src": "./img/antdesign.png",
+        "a_href": "https://ant.design/index-cn",
+        "child_desc": "蚂蚁金服的开箱即用的中台前端/设计解决方案"
+      },
+      {
+        "child_name": "Layui",
+        "img_src": "./img/layui.jpg",
+        "a_href": "https://www.layui.com/",
+        "child_desc": "一款采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写与组织形式，门槛极低，拿来即用"
+      },
+      {
+        "child_name": "WeUI",
+        "img_src": "./img/weui.png",
+        "a_href": "https://github.com/Tencent/weui",
+        "child_desc": "一套同微信原生视觉体验一致的基础样式库 为微信 Web 开发量身设计，令用户的使用感知更加统一"
+      },
+      {
+        "child_name": "AmazeUI",
+        "img_src": "./img/amazeui.png",
+        "a_href": "http://amazeui.org/",
+        "child_desc": "妹子UI HTML5 跨屏前端框架"
+      },
+      {
+        "child_name": "MetroUI",
+        "img_src": "./img/metroui.png",
+        "a_href": "https://metroui.org.ua/",
+        "child_desc": "好看好用，重点是样式特别、个性"
+      },
+      {
+        "child_name": "QMUI Web",
+        "img_src": "./img/QMUIWeb.png",
+        "a_href": "https://qmuiteam.com/web/page/index.html",
+        "child_desc": "腾讯旗下团队 web UI解决方案"
+      },
+      {
+        "child_name": "MDUI",
+        "img_src": "./img/mdui.png",
+        "a_href": "https://www.mdui.org/",
+        "child_desc": "MDUI 是一套用于开发 Material Design 网页的前端框架"
+      },
+      {
+        "child_name": "Mobi.css",
+        "img_src": "./img/mobicss.png",
+        "a_href": "http://getmobicss.com/",
+        "child_desc": "轻量灵活的移动端 CSS 框架"
       }
     ]
   },
@@ -600,12 +723,6 @@
         "child_desc": "CSS hack 表格"
       },
       {
-        "child_name": "MetroUI",
-        "img_src": "./img/metroui.png",
-        "a_href": "https://metroui.org.ua/",
-        "child_desc": "好看好用，重点是样式特别、个性"
-      },
-      {
         "child_name": "LoadersCSS",
         "img_src": "./img/loaders.png",
         "a_href": "https://connoratherton.com/loaders",
@@ -616,12 +733,6 @@
         "img_src": "./img/text-spinners.png",
         "a_href": "https://github.com/maxbeier/text-spinners",
         "child_desc": "又是一款 spinners 效果的库，用来做 loading 正合适。"
-      },
-      {
-        "child_name": "WeUI",
-        "img_src": "./img/weui.png",
-        "a_href": "https://github.com/Tencent/weui",
-        "child_desc": "一套同微信原生视觉体验一致的基础样式库 为微信 Web 开发量身设计，令用户的使用感知更加统一"
       },
       {
         "child_name": "Can I Use",
@@ -646,6 +757,60 @@
         "img_src": "./img/CSS-Inspiration.png",
         "a_href": "https://chokcoco.github.io/CSS-Inspiration/#/",
         "child_desc": "学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。"
+      },
+      {
+        "child_name": "CSScomb",
+        "img_src": "./img/csscomb.png",
+        "a_href": "http://csscomb.com/",
+        "child_desc": "一个超棒的CSS属性排序工具"
+      },
+      {
+        "child_name": "Button Generator",
+        "img_src": "./img/ButtonGenerator.png",
+        "a_href": "https://www.bestcssbuttongenerator.com/",
+        "child_desc": "提供各种按钮的CSS代码，你可以从预设的按钮中选择并使用模板用于自己的设计"
+      },
+      {
+        "child_name": "EnjoyCSS",
+        "img_src": "./img/enjoycss.png",
+        "a_href": "https://enjoycss.com/",
+        "child_desc": "一个完整的代码生成器，可以自定义输入域或CSS3按钮"
+      },
+      {
+        "child_name": "Animista",
+        "img_src": "./img/animista.png",
+        "a_href": "http://animista.net/",
+        "child_desc": "CSS动态效果样式在线自定义"
+      },
+      {
+        "child_name": "AniCollection",
+        "img_src": "./img/anicollection.png",
+        "a_href": "http://anicollection.github.io/#/",
+        "child_desc": "CSS3动效预设收藏集合"
+      },
+      {
+        "child_name": "CSS Generator Tool",
+        "img_src": "./img/cssgenerator.png",
+        "a_href": "https://cssgenerator.org/",
+        "child_desc": "CSS各种对象样式和效果在线生成工具"
+      },
+      {
+        "child_name": "Ceaser",
+        "img_src": "./img/ceaser.png",
+        "a_href": "https://matthewlein.com/tools/ceaser",
+        "child_desc": "CSS贝塞尔动画在线调试工具"
+      },
+      {
+        "child_name": "CSS Gradient Generator",
+        "img_src": "./img/gradient-editor.png",
+        "a_href": "http://www.colorzilla.com/gradient-editor/",
+        "child_desc": "CSS渐变在线生成器"
+      },
+      {
+        "child_name": "CSS Reference",
+        "img_src": "./img/cssreference.png",
+        "a_href": "https://cssreference.io/",
+        "child_desc": "非常棒的免费的CSS属性指导手册"
       }
 
     ]
@@ -710,6 +875,18 @@
         "img_src": "./img/cssmoban.png",
         "a_href": "http://www.cssmoban.com/",
         "child_desc": "CSS模板之家为你提供大量精品网页模板,企业网站模板,网站模板下载,DIV+CSS模板,网页设计模板,网站后台模板,个人博客模板,上千种免费网页模板下载"
+      },
+      {
+        "child_name": "Html5 Tricks",
+        "img_src": "./img/html5tricks.png",
+        "a_href": "https://www.html5tricks.com/",
+        "child_desc": "很多前端实现的功能，可以在线查看效果，也可以下载源码"
+      },
+      {
+        "child_name": "codemyui",
+        "img_src": "./img/codemyui.png",
+        "a_href": "https://codemyui.com/",
+        "child_desc": "采集有趣的网站UI代码片段"
       }
     ]
   },
@@ -1045,7 +1222,7 @@
         "child_name": "ICONFINDER",
         "img_src": "./img/iconfinder.png",
         "a_href": "https://www.iconfinder.com/",
-        "child_desc": "icon下载"
+        "child_desc": "高质量付费图标下载"
       },
       {
         "child_name": "Noun Project",
@@ -1076,6 +1253,12 @@
         "img_src": "./img/emoji-cheat-sheet.png",
         "a_href": "https://www.webfx.com/tools/emoji-cheat-sheet/",
         "child_desc": "可以使用在github上的emoji图标"
+      },
+      {
+        "child_name": "草莓图标库",
+        "img_src": "./img/chuangzaoshi.png",
+        "a_href": "http://chuangzaoshi.com/icon/",
+        "child_desc": "为开发者设计的一套免费开源图标库"
       }
     ]
   },
@@ -1091,6 +1274,12 @@
         "img_src": "./img/colorhunt.png",
         "a_href": "https://colorhunt.co/",
         "child_desc": "网站配色专家"
+      },
+      {
+        "child_name": "Dribbble",
+        "img_src": "./img/dribbble.png",
+        "a_href": "https://dribbble.com/",
+        "child_desc": "设计灵感"
       },
       {
         "child_name": "Pixabay",
@@ -1153,12 +1342,6 @@
         "child_desc": "Patterns素材,网页背景图"
       },
       {
-        "child_name": "Dribbble",
-        "img_src": "./img/dribbble.png",
-        "a_href": "https://dribbble.com/",
-        "child_desc": "设计灵感"
-      },
-      {
         "child_name": "Pttrns",
         "img_src": "./img/pttrns.png",
         "a_href": "https://pttrns.com/",
@@ -1181,6 +1364,48 @@
         "img_src": "./img/365psd.png",
         "a_href": "https://cn.365psd.com/",
         "child_desc": "下载免费高品质的 PSD 文件、插图和图形。浏览我们的图库，快速找到心仪图像，商业使用完全免费。"
+      },
+      {
+        "child_name": "UIgradients",
+        "img_src": "./img/uigradients.png",
+        "a_href": "https://uigradients.com/",
+        "child_desc": "简洁舒服的渐变配色"
+      },
+      {
+        "child_name": "Freebiesbug",
+        "img_src": "./img/freebiesbug.png",
+        "a_href": "https://freebiesbug.com/",
+        "child_desc": "高质量设计网站、资源聚合站点"
+      },
+      {
+        "child_name": "OnePageLove",
+        "img_src": "./img/onepagelove.png",
+        "a_href": "https://onepagelove.com/",
+        "child_desc": "网站和APP单页界面欣赏"
+      },
+      {
+        "child_name": "UpLabs",
+        "img_src": "./img/uplabs.png",
+        "a_href": "https://www.uplabs.com/",
+        "child_desc": "采集前端作品设计、iOS UI设计"
+      },
+      {
+        "child_name": "Reeoo",
+        "img_src": "./img/reeoo.png",
+        "a_href": "http://reeoo.com/",
+        "child_desc": "全球最火热的酷站画廊"
+      },
+      {
+        "child_name": "SiteSee",
+        "img_src": "./img/sitesee.png",
+        "a_href": "https://sitesee.co/",
+        "child_desc": "收录漂亮的界面设计网站"
+      },
+      {
+        "child_name": "Calltoidea",
+        "img_src": "./img/calltoidea.png",
+        "a_href": "https://www.calltoidea.com/",
+        "child_desc": "收集优秀UI组件元素设计的站点"
       }
     ]
   },
@@ -1451,6 +1676,42 @@
         "img_src": "./img/cutterman.png",
         "a_href": "http://www.cutterman.cn/zh/cutterman",
         "child_desc": "最好用的切图工具,它是免费的,就是这么任性! 此站很多神器。"
+      },
+      {
+        "child_name": "FontConverter",
+        "img_src": "./img/FontConverter.png",
+        "a_href": "http://www.freefontconverter.com/#&linkId=404",
+        "child_desc": "将字体转成网页webfont专用字体"
+      },
+      {
+        "child_name": "font-face generator",
+        "img_src": "./img/font-face-generator.png",
+        "a_href": "https://everythingfonts.com/font-face",
+        "child_desc": "@font-face网页字体文件格式转换"
+      },
+      {
+        "child_name": "PageSpeed Insights",
+        "img_src": "./img/pagespeedinsights.png",
+        "a_href": "https://developers.google.com/speed/pagespeed/insights/",
+        "child_desc": "Google在线性能测试网站、优化建议"
+      },
+      {
+        "child_name": "Responsinator",
+        "img_src": "./img/responsinator.png",
+        "a_href": "http://www.responsinator.com/",
+        "child_desc": "各大尺寸设备响应式屏幕效果显示"
+      },
+      {
+        "child_name": "Browser Sandbox",
+        "img_src": "./img/BrowserSandbox.png",
+        "a_href": "https://turbo.net/browsers",
+        "child_desc": "各大平台浏览器兼容性在线测试"
+      },
+      {
+        "child_name": "TinyPNG",
+        "img_src": "./img/tinypng.png",
+        "a_href": "https://tinypng.com/",
+        "child_desc": "超完美PNG压缩工具"
       }
     ]
   },

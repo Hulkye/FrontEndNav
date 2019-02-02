@@ -1,4 +1,7 @@
+
 $navbarCL: #222831;
+$titleCL: #3273dc;
+
 
 body {
   font-size: 12px;
@@ -229,7 +232,7 @@ body {
           position: relative;
           font-size: 14px;
           font-weight: 700;
-          color: #3273dc;
+          color: $titleCL;
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
