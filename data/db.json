@@ -538,6 +538,18 @@
         "img_src": "./img/preact.png",
         "a_href": "https://preactjs.com/",
         "child_desc": "一个快速轻量的 React 替代方案，具有 ES6 API、组件化和虚拟 DOM"
+      },
+      {
+        "child_name": "Egg",
+        "img_src": "./img/eggjs.png",
+        "a_href": "https://eggjs.org/zh-cn/",
+        "child_desc": "一个用于更好地构建企业应用的框架，内置流程管理，高度可定制，有强大的插件系统。"
+      },
+      {
+        "child_name": "KISSY",
+        "img_src": "./img/kissy.png",
+        "a_href": "http://docs.kissyui.com/",
+        "child_desc": "KISSY 是一款跨终端、模块化、高性能、使用简单的 JavaScript 框架。"
       }
     ]
   },
@@ -637,6 +649,12 @@
         "img_src": "./img/mobicss.png",
         "a_href": "http://getmobicss.com/",
         "child_desc": "轻量灵活的移动端 CSS 框架"
+      },
+      {
+        "child_name": "Framework7",
+        "img_src": "./img/framework7.png",
+        "a_href": "http://www.framework7.cn/",
+        "child_desc": "完美的HTML框架,构建精美的iOS & Android 应用"
       }
     ]
   },
@@ -887,6 +905,12 @@
         "img_src": "./img/codemyui.png",
         "a_href": "https://codemyui.com/",
         "child_desc": "采集有趣的网站UI代码片段"
+      },
+      {
+        "child_name": "PlainJS",
+        "img_src": "./img/plainjs.png",
+        "a_href": "https://plainjs.com/",
+        "child_desc": "该仓库都是用原生js写的插件和组件，很实用"
       }
     ]
   },
