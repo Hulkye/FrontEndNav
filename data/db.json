@@ -655,6 +655,12 @@
         "img_src": "./img/framework7.png",
         "a_href": "http://www.framework7.cn/",
         "child_desc": "完美的HTML框架,构建精美的iOS & Android 应用"
+      },
+      {
+        "child_name": "PaperCSS",
+        "img_src": "./img/getpapercss.png",
+        "a_href": "https://www.getpapercss.com/",
+        "child_desc": "一个不太常规的CSS框架，如果你希望你的网站有手绘风格感觉，选择它准没错。"
       }
     ]
   },
@@ -1133,6 +1139,36 @@
         "img_src": "./img/postcss.png",
         "a_href": "https://www.postcss.com.cn/",
         "child_desc": "是一个用 JavaScript 工具和插件转换 CSS 代码的工具"
+      },
+      {
+        "child_name": "Parcel",
+        "img_src": "./img/parceljs.png",
+        "a_href": "https://parceljs.org/",
+        "child_desc": "极速零配置Web应用打包工具"
+      },
+      {
+        "child_name": "Critters",
+        "img_src": "./img/critters.png",
+        "a_href": "https://github.com/GoogleChromeLabs/critters",
+        "child_desc": "webpack的插件，它可以很方便的配置内联关键css( critical CSS ),其余的css部分则会异步加载，由于它不使用无头浏览器(headless browser)呈现内容，因此快速轻巧。"
+      },
+      {
+        "child_name": "Webpack Config Tool",
+        "img_src": "./img/WebpackConfigTool.png",
+        "a_href": "https://webpack.jakoblind.no/",
+        "child_desc": "一款可视化的在线工具网站，你只需要选择前端项目运用到技术和相关配置，就能一键帮你生成webpack.config.js，省去你不少的麻烦。"
+      },
+      {
+        "child_name": "JSUI",
+        "img_src": "./img/JSUI.png",
+        "a_href": "https://github.com/kitze/JSUI",
+        "child_desc": "一个可视化分类、构建和管理 JavaScript 项目的工具。不管是前端应用还是后端应用，也不论使用的是哪种框架，只要项目有一个 package.json ，即可进行管理。"
+      },
+      {
+        "child_name": "PWA Universal Builder",
+        "img_src": "./img/pwa.png",
+        "a_href": "https://pwa.cafe/",
+        "child_desc": "一款脚手架构建工具，方便创建基于Preact，React，Vue和Svelte的项目，开箱及支持Babel，Bublé，Browserlist，TypeScript，PostCSS，ESLint，Prettier和Service Workers！"
       }
     ]
   },
@@ -1283,6 +1319,12 @@
         "img_src": "./img/chuangzaoshi.png",
         "a_href": "http://chuangzaoshi.com/icon/",
         "child_desc": "为开发者设计的一套免费开源图标库"
+      },
+      {
+        "child_name": "Orion Icon Library",
+        "img_src": "./img/orioniconlibrary.png",
+        "a_href": "https://orioniconlibrary.com/",
+        "child_desc": "多达6000专业免费的SVG矢量图标，还支持深度的定制，比如更换配色，更改线条粗细，变换图标风格(细线条、粗线条、扁平)，一键生成相关代码。"
       }
     ]
   },
