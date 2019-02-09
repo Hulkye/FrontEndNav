@@ -1825,5 +1825,74 @@
         "child_desc": "创办于2007年的Webrebuild交流组织团体于2015年更名为「前端体验大会」"
       }
     ]
+  },
+
+  {
+    "Category_id": "contentManagement",
+    "category_CN": "内容管理",
+    "category_icon": "icon-wenzhangguanli",
+    "category_item": "contentManagementItem",
+    "item_children": [
+      {
+        "child_name": "WordPress",
+        "img_src": "./img/wordpress.png",
+        "a_href": "https://cn.wordpress.org/",
+        "child_desc": "WordPress是使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。"
+      },
+      {
+        "child_name": "Hexo",
+        "img_src": "./img/hexo.png",
+        "a_href": "https://hexo.io/zh-cn/",
+        "child_desc": "快速、简洁且高效的博客框架"
+      },
+      {
+        "child_name": "GitHub Pages",
+        "img_src": "./img/GitHubPages.png",
+        "a_href": "https://pages.github.com/",
+        "child_desc": "Github Pages是Github免费提供给开发者的一款托管个人网站的产品。"
+      },
+      {
+        "child_name": "Jekyll",
+        "img_src": "./img/jekyll.png",
+        "a_href": "https://www.jekyll.com.cn/",
+        "child_desc": "将纯文本转化为静态网站和博客"
+      },
+      {
+        "child_name": "Wix",
+        "img_src": "./img/wix.png",
+        "a_href": "https://www.wix.com",
+        "child_desc": "免费的响应式商业化建站方案"
+      },
+      {
+        "child_name": "VuePress",
+        "img_src": "./img/vuepress.png",
+        "a_href": "https://www.vuepress.cn/",
+        "child_desc": "Vue 驱动的静态站点生成工具"
+      },
+      {
+        "child_name": "Docusaurus",
+        "img_src": "./img/docusaurus.png",
+        "a_href": "https://docusaurus.io/",
+        "child_desc": "Facebook出品的 简单的开源文档站点生成器"
+      },
+      {
+        "child_name": "docsify",
+        "img_src": "./img/docsify.png",
+        "a_href": "https://docsify.js.org/#/zh-cn/",
+        "child_desc": "一个神奇的文档站点生成器 简单轻巧"
+      },
+      {
+        "child_name": "Wiki js",
+        "img_src": "./img/wikijs.png",
+        "a_href": "https://wiki.js.org/",
+        "child_desc": "一个基于 NodeJS, Git 和 Markdown 的轻量级、现代化以及强大的 WIKI APP 生成工具"
+      },
+      {
+        "child_name": "GitBook",
+        "img_src": "./img/gitbook.png",
+        "a_href": "https://www.gitbook.com/",
+        "child_desc": "GitBook 是一个基于 Node.js 的命令行工具，可使用 Github/Git 和 Markdown 来制作精美的电子书"
+      }
+    ]
   }
 ]
