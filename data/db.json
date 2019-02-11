@@ -370,6 +370,12 @@
         "img_src": "./img/phpcn.png",
         "a_href": "http://www.php.cn/",
         "child_desc": "php中文网-教程_手册_视频-免费php在线学习平台."
+      },
+      {
+        "child_name": "前端里",
+        "img_src": "./img/yyyweb.png",
+        "a_href": "http://www.yyyweb.com/",
+        "child_desc": "专注于分享最前沿的Web开发技术，教程，资源和素材，是面向网站开发人员和设计师的学习交流平台"
       }
     ]
   },
@@ -1787,6 +1793,42 @@
         "img_src": "./img/tinypng.png",
         "a_href": "https://tinypng.com/",
         "child_desc": "超完美PNG压缩工具"
+      },
+      {
+        "child_name": "BrowserFrame",
+        "img_src": "./img/browserframe.png",
+        "a_href": "https://browserframe.com/",
+        "child_desc": "一个生成浏览器外壳的网站，它提供了两种方式来生成截图"
+      },
+      {
+        "child_name": "Screen Guru",
+        "img_src": "./img/screenguru.png",
+        "a_href": "https://screen.guru",
+        "child_desc": "实现通过网址生成截图功能"
+      },
+      {
+        "child_name": "Carbon",
+        "img_src": "./img/carbon.png",
+        "a_href": "https://carbon.now.sh",
+        "child_desc": "代码界美图秀秀,装逼用"
+      },
+      {
+        "child_name": "ColorSpark",
+        "img_src": "./img/colorspark.png",
+        "a_href": "https://colorspark.app/",
+        "child_desc": "随机生成好看的颜色、渐变色，可以一键复制 CSS 代码"
+      },
+      {
+        "child_name": "FontSpark",
+        "img_src": "./img/fontspark.png",
+        "a_href": "https://fontspark.app/",
+        "child_desc": "随机字体在线预览，用过都说好。"
+      },
+      {
+        "child_name": "easy PDF",
+        "img_src": "./img/easypdf.png",
+        "a_href": "https://easypdf.com/cn",
+        "child_desc": "在线 PDF 转换工具"
       }
     ]
   },
@@ -1901,6 +1943,21 @@
         "img_src": "./img/gitbook.png",
         "a_href": "https://www.gitbook.com/",
         "child_desc": "GitBook 是一个基于 Node.js 的命令行工具，可使用 Github/Git 和 Markdown 来制作精美的电子书"
+      }
+    ]
+  },
+
+  {
+    "Category_id": "someWebsite",
+    "category_CN": "一些网站",
+    "category_icon": "icon-icon_wangye",
+    "category_item": "someWebsiteItem",
+    "item_children": [
+      {
+        "child_name": "免费资源网络社区",
+        "img_src": "./img/free.png",
+        "a_href": "https://free.com.tw/",
+        "child_desc": "一个以免费为主题的台湾网站、部落格，内容包含科技新知、免费软体、线上工具、图库素材、WordPress 架站及应用程式介绍教学"
       }
     ]
   }
