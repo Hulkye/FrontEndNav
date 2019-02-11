@@ -1690,17 +1690,11 @@
   },
 
   {
-    "Category_id": "auxiliary",
-    "category_CN": " 辅助工具",
-    "category_icon": "icon-gongju1",
-    "category_item": "auxiliaryItem",
+    "Category_id": "aidedDevTools",
+    "category_CN": " 辅助开发工具",
+    "category_icon": "icon-gongju",
+    "category_item": "aidedDevToolsItem",
     "item_children": [
-      {
-        "child_name": "SM.MS",
-        "img_src": "./img/smms.png",
-        "a_href": "https://sm.ms/",
-        "child_desc": "图床网站,无外链限制，无流量限制"
-      },
       {
         "child_name": "Getman",
         "img_src": "./img/getman.png",
@@ -1738,24 +1732,6 @@
         "child_desc": "一个在线网站代码调试工具，主要用于测试 JavaScript 和 CSS 的代码片段的Web 应用，拥有简单的操作界面和全面的测试环境。"
       },
       {
-        "child_name": "Cutterman",
-        "img_src": "./img/cutterman.png",
-        "a_href": "http://www.cutterman.cn/zh/cutterman",
-        "child_desc": "最好用的切图工具,它是免费的,就是这么任性! 此站很多神器。"
-      },
-      {
-        "child_name": "FontConverter",
-        "img_src": "./img/FontConverter.png",
-        "a_href": "http://www.freefontconverter.com/#&linkId=404",
-        "child_desc": "将字体转成网页webfont专用字体"
-      },
-      {
-        "child_name": "font-face generator",
-        "img_src": "./img/font-face-generator.png",
-        "a_href": "https://everythingfonts.com/font-face",
-        "child_desc": "@font-face网页字体文件格式转换"
-      },
-      {
         "child_name": "PageSpeed Insights",
         "img_src": "./img/pagespeedinsights.png",
         "a_href": "https://developers.google.com/speed/pagespeed/insights/",
@@ -1772,6 +1748,39 @@
         "img_src": "./img/BrowserSandbox.png",
         "a_href": "https://turbo.net/browsers",
         "child_desc": "各大平台浏览器兼容性在线测试"
+      }
+    ]
+  },
+
+  {
+    "Category_id": "otherTools",
+    "category_CN": " 其他工具",
+    "category_icon": "icon-gongju1",
+    "category_item": "otherToolsItem",
+    "item_children": [
+      {
+        "child_name": "SM.MS",
+        "img_src": "./img/smms.png",
+        "a_href": "https://sm.ms/",
+        "child_desc": "图床网站,无外链限制，无流量限制"
+      },
+      {
+        "child_name": "Cutterman",
+        "img_src": "./img/cutterman.png",
+        "a_href": "http://www.cutterman.cn/zh/cutterman",
+        "child_desc": "最好用的切图工具,它是免费的,就是这么任性! 此站很多神器。"
+      },
+      {
+        "child_name": "FontConverter",
+        "img_src": "./img/FontConverter.png",
+        "a_href": "http://www.freefontconverter.com/#&linkId=404",
+        "child_desc": "将字体转成网页webfont专用字体"
+      },
+      {
+        "child_name": "font-face generator",
+        "img_src": "./img/font-face-generator.png",
+        "a_href": "https://everythingfonts.com/font-face",
+        "child_desc": "@font-face网页字体文件格式转换"
       },
       {
         "child_name": "TinyPNG",
