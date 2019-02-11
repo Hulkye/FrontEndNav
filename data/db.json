@@ -469,6 +469,12 @@
         "img_src": "./img/msdnmicrosoft.png",
         "a_href": "https://msdn.microsoft.com/zh-cn/",
         "child_desc": "使用 Microsoft Developer Network 学习开发 | MSDN"
+      },
+      {
+        "child_name": "印记中文",
+        "img_src": "./img/docschina.png",
+        "a_href": "https://www.docschina.org/",
+        "child_desc": "收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍"
       }
     ]
   },
@@ -1958,6 +1964,12 @@
         "img_src": "./img/free.png",
         "a_href": "https://free.com.tw/",
         "child_desc": "一个以免费为主题的台湾网站、部落格，内容包含科技新知、免费软体、线上工具、图库素材、WordPress 架站及应用程式介绍教学"
+      },
+      {
+        "child_name": "吾爱破解",
+        "img_src": "./img/52pojie.png",
+        "a_href": "https://www.52pojie.cn/",
+        "child_desc": "吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护"
       }
     ]
   }
