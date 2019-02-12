@@ -958,12 +958,6 @@
         "child_desc": "一个高性能，资源占用少，无依赖，多平台的javascript滚动插件"
       },
       {
-        "child_name": "EChart",
-        "img_src": "./img/echarts.png",
-        "a_href": "https://echarts.baidu.com/",
-        "child_desc": "百度EFE团队出品的可视化图表插件。"
-      },
-      {
         "child_name": "fullPage.js",
         "img_src": "./img/fullPage.png",
         "a_href": "https://alvarotrigo.com/fullPage/zh/",
@@ -1022,12 +1016,6 @@
         "img_src": "./img/Sortable.jpg",
         "a_href": "http://rubaxa.github.io/Sortable/",
         "child_desc": "一个简约的 JavaScript 库用于在现代浏览器中拖放列表重新排序 ，支持任何JS框架。"
-      },
-      {
-        "child_name": "Highcharts",
-        "img_src": "./img/hcharts.png",
-        "a_href": "https://www.hcharts.cn/",
-        "child_desc": "Highcharts 是一个用纯JavaScript编写的一个图表库，兼容IE6+"
       },
       {
         "child_name": "jQuery File Upload Plugin",
@@ -1094,6 +1082,57 @@
         "img_src": "./img/quicklink.png",
         "a_href": "https://github.com/GoogleChromeLabs/quicklink",
         "child_desc": "quicklink 是一个通过预加载资源来提升后续方案速度的轻量级工具库。旨在提升浏览过程中，用户访问后续页面时的加载速度。"
+      }
+    ]
+  },
+
+  {
+    "Category_id": "graphical",
+    "category_CN": "可视化",
+    "category_icon": "icon-tubiao",
+    "category_item": "graphicalItem",
+    "item_children": [
+      {
+        "child_name": "D3.js",
+        "img_src": "./img/d3js.png",
+        "a_href": "https://d3js.org/",
+        "child_desc": "用动态图形显示数据的JavaScript库"
+      },
+      {
+        "child_name": "Echarts",
+        "img_src": "./img/echarts.png",
+        "a_href": "http://echarts.baidu.com/",
+        "child_desc": "百度开发的可定制的数据可视化图表"
+      },
+      {
+        "child_name": "three.js",
+        "img_src": "./img/threejs.png",
+        "a_href": "https://threejs.org/",
+        "child_desc": "百度开发的可定制的数据可视化图表"
+      },
+      {
+        "child_name": "Highcharts",
+        "img_src": "./img/hcharts.png",
+        "a_href": "https://www.highcharts.com.cn/",
+        "child_desc": "Highcharts 是一个用纯JavaScript编写的一个图表库，兼容IE6+"
+      },
+      {
+        "child_name": "AntV",
+        "img_src": "./img/antv.png",
+        "a_href": "https://antv.alipay.com/",
+        "child_desc": "蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。"
+      },
+      {
+        "child_name": "Chart.js",
+        "img_src": "./img/chartjs.png",
+        "a_href": "https://www.chartjs.org/",
+        "child_desc": "一个简单、面向对象，为设计和开发者准备的图表绘制工具库"
+      },
+      {
+        "child_name": "Leaflet",
+        "img_src": "./img/leafletjs.png",
+        "a_href": "https://leafletjs.com/",
+        "child_desc": "一个用于移动端渲染交互式地图开源JavaScript库"
       }
     ]
   },
@@ -1188,7 +1227,7 @@
   {
     "Category_id": "ide",
     "category_CN": "编辑器/IDE",
-    "category_icon": "icon-IDE",
+    "category_icon": "icon-shebeikaifa",
     "category_item": "ideItem",
     "item_children": [
       {
@@ -1303,16 +1342,16 @@
         "child_desc": "icon下载"
       },
       {
-        "child_name": "Emoji searcher",
-        "img_src": "./img/Emojisearcher.png",
-        "a_href": "https://emoji.muan.co/",
-        "child_desc": "Emoji表情大全"
-      },
-      {
         "child_name": "RPG-Awesome",
         "img_src": "./img/RpgAwesome.png",
         "a_href": "http://nagoshiashumari.github.io/Rpg-Awesome/",
         "child_desc": "icon下载"
+      },
+      {
+        "child_name": "Orion Icon Library",
+        "img_src": "./img/orioniconlibrary.png",
+        "a_href": "https://orioniconlibrary.com/",
+        "child_desc": "多达6000专业免费的SVG矢量图标，还支持深度的定制，比如更换配色，更改线条粗细，变换图标风格(细线条、粗线条、扁平)，一键生成相关代码。"
       },
       {
         "child_name": "gitmoji",
@@ -1333,10 +1372,10 @@
         "child_desc": "为开发者设计的一套免费开源图标库"
       },
       {
-        "child_name": "Orion Icon Library",
-        "img_src": "./img/orioniconlibrary.png",
-        "a_href": "https://orioniconlibrary.com/",
-        "child_desc": "多达6000专业免费的SVG矢量图标，还支持深度的定制，比如更换配色，更改线条粗细，变换图标风格(细线条、粗线条、扁平)，一键生成相关代码。"
+        "child_name": "Emoji searcher",
+        "img_src": "./img/Emojisearcher.png",
+        "a_href": "https://emoji.muan.co/",
+        "child_desc": "Emoji表情大全"
       }
     ]
   },
