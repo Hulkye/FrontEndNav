@@ -569,7 +569,7 @@
   {
     "Category_id": "UIFrame",
     "category_CN": "UI框架",
-    "category_icon": "icon-gerenmenhu",
+    "category_icon": "icon-ui",
     "category_item": "UIFrameItem",
     "item_children": [
       {
@@ -936,7 +936,7 @@
   {
     "Category_id": "templatePlug",
     "category_CN": "模板插件",
-    "category_icon": "icon-chajian",
+    "category_icon": "icon-chajian2",
     "category_item": "templatePlugItem",
     "item_children": [
       {
@@ -1101,7 +1101,7 @@
   {
     "Category_id": "buildTools",
     "category_CN": "编译&构建&打包",
-    "category_icon": "icon-guize",
+    "category_icon": "icon-goujian",
     "category_item": "buildToolsItem",
     "item_children": [
       {
@@ -1188,7 +1188,7 @@
   {
     "Category_id": "ide",
     "category_CN": "编辑器/IDE",
-    "category_icon": "icon-shebeikaifa",
+    "category_icon": "icon-IDE",
     "category_item": "ideItem",
     "item_children": [
       {
@@ -1344,7 +1344,7 @@
   {
     "Category_id": "vision",
     "category_CN": "视觉设计",
-    "category_icon": "icon-dashujukeshihuaico-",
+    "category_icon": "icon-shijuesheji",
     "category_item": "visionItem",
     "item_children": [
       {
@@ -1653,7 +1653,7 @@
   {
     "Category_id": "chrome",
     "category_CN": "chrome插件",
-    "category_icon": "icon-chrome",
+    "category_icon": "icon-iconset0284",
     "category_item": "chromeItem",
     "item_children": [
       {
@@ -1704,7 +1704,7 @@
   {
     "Category_id": "aidedDevTools",
     "category_CN": " 辅助开发工具",
-    "category_icon": "icon-gongju",
+    "category_icon": "icon-hebingxingzhuang-",
     "category_item": "aidedDevToolsItem",
     "item_children": [
       {
@@ -1887,7 +1887,7 @@
   {
     "Category_id": "contentManagement",
     "category_CN": "内容管理",
-    "category_icon": "icon-wenzhangguanli",
+    "category_icon": "icon-navneirongguanli",
     "category_item": "contentManagementItem",
     "item_children": [
       {
@@ -1956,7 +1956,7 @@
   {
     "Category_id": "someWebsite",
     "category_CN": "一些网站",
-    "category_icon": "icon-icon_wangye",
+    "category_icon": "icon-wangzhanguanli",
     "category_item": "someWebsiteItem",
     "item_children": [
       {
