@@ -78,12 +78,6 @@
         "child_desc": "基础教程视频,B站良心up主,满满的干货."
       },
       {
-        "child_name": "NEC(CSS规范)",
-        "img_src": "./img/netease.png",
-        "a_href": "http://nec.netease.com/",
-        "child_desc": "NEC包括了规范、框架、代码库、插件等内容，致力于为前端开发人员提供高效率高质量的前端页面开发解决方案。"
-      },
-      {
         "child_name": "scriptoj",
         "img_src": "./img/scriptoj.png",
         "a_href": "http://scriptoj.mangojuice.top/",
@@ -136,6 +130,12 @@
         "img_src": "./img/code.png",
         "a_href": "https://studio.code.org/",
         "child_desc": "适用于初级的免费游戏式编程教学"
+      },
+      {
+        "child_name": "技术胖",
+        "img_src": "./img/jspang.png",
+        "a_href": "https://jspang.com/",
+        "child_desc": "技术胖,该站有很多免费的前端学习视频"
       }
     ]
   },
@@ -163,6 +163,12 @@
         "img_src": "./img/doyoe.png",
         "a_href": "http://css.doyoe.com/",
         "child_desc": "Web前端开发人员提供最新、最全的CSS中文版在线资料，涵盖CSS3参考手册。"
+      },
+      {
+        "child_name": "NEC(CSS规范)",
+        "img_src": "./img/netease.png",
+        "a_href": "http://nec.netease.com/",
+        "child_desc": "NEC包括了规范、框架、代码库、插件等内容，致力于为前端开发人员提供高效率高质量的前端页面开发解决方案。"
       },
       {
         "child_name": "jQuery API 中文文档",
@@ -205,12 +211,6 @@
         "img_src": "./img/nodeapp.png",
         "a_href": "http://nodejs.cn/api/",
         "child_desc": "nodejs中文网中文文档"
-      },
-      {
-        "child_name": "TypeScript中文网",
-        "img_src": "./img/TypeScriptcn.png",
-        "a_href": "https://www.tslang.cn/",
-        "child_desc": "TypeScript中文网中文文档"
       },
       {
         "child_name": "Flutter",
@@ -706,6 +706,24 @@
         "img_src": "./img/30secondsofcode.png",
         "a_href": "https://30secondsofcode.org/",
         "child_desc": "分享了大量有用的Javascript片段,你可以在30秒或更少时间中理解。"
+      },
+      {
+        "child_name": "JS 函数式编程指南",
+        "img_src": "./img/dianzishu.png",
+        "a_href": "https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/",
+        "child_desc": "JS 函数式编程指南 gitbook电子书"
+      },
+      {
+        "child_name": "TypeScript中文网",
+        "img_src": "./img/TypeScriptcn.png",
+        "a_href": "https://www.tslang.cn/",
+        "child_desc": "TypeScript中文网中文文档"
+      },
+      {
+        "child_name": "TypeScript Handbook",
+        "img_src": "./img/dianzishu.png",
+        "a_href": "https://zhongsp.gitbooks.io/typescript-handbook/content/",
+        "child_desc": "TypeScript Handbook（中文版）"
       }
     ]
   },
@@ -854,7 +872,7 @@
 
   {
     "Category_id": "codeSource",
-    "category_CN": "代码素材",
+    "category_CN": "代码素材/片段",
     "category_icon": "icon-daima",
     "category_item": "codeSourceItem",
     "item_children": [
@@ -929,6 +947,12 @@
         "img_src": "./img/plainjs.png",
         "a_href": "https://plainjs.com/",
         "child_desc": "该仓库都是用原生js写的插件和组件，很实用"
+      },
+      {
+        "child_name": "Snippets",
+        "img_src": "./img/snippets.png",
+        "a_href": "http://snippets.barretlee.com/#!/snippets",
+        "child_desc": "小胡子哥的代码收藏夹，Snippets 管理工具"
       }
     ]
   },
@@ -1366,16 +1390,22 @@
         "child_desc": "可以使用在github上的emoji图标"
       },
       {
+        "child_name": "Emoji searcher",
+        "img_src": "./img/Emojisearcher.png",
+        "a_href": "https://emoji.muan.co/",
+        "child_desc": "Emoji表情大全"
+      },
+      {
         "child_name": "草莓图标库",
         "img_src": "./img/chuangzaoshi.png",
         "a_href": "http://chuangzaoshi.com/icon/",
         "child_desc": "为开发者设计的一套免费开源图标库"
       },
       {
-        "child_name": "Emoji searcher",
-        "img_src": "./img/Emojisearcher.png",
-        "a_href": "https://emoji.muan.co/",
-        "child_desc": "Emoji表情大全"
+        "child_name": "Unicons",
+        "img_src": "./img/unicons.png",
+        "a_href": "https://iconscout.com/unicons",
+        "child_desc": "超過 1000 個向量圖示免費下載，完美像素放大縮小不影響解析度"
       }
     ]
   },
@@ -1874,6 +1904,12 @@
         "img_src": "./img/easypdf.png",
         "a_href": "https://easypdf.com/cn",
         "child_desc": "在线 PDF 转换工具"
+      },
+      {
+        "child_name": "有道云笔记",
+        "img_src": "./img/youdaonote.png",
+        "a_href": "https://note.youdao.com/web",
+        "child_desc": "个人觉得比印象笔记好用的云笔记"
       }
     ]
   },
@@ -2009,6 +2045,12 @@
         "img_src": "./img/52pojie.png",
         "a_href": "https://www.52pojie.cn/",
         "child_desc": "吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护"
+      },
+      {
+        "child_name": "全能VIP视频在线解析",
+        "img_src": "./img/liumingyevideo.png",
+        "a_href": "http://tool.liumingye.cn/video/",
+        "child_desc": "优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,视频解析,全能VIP视频解析,视频在线解析"
       }
     ]
   }

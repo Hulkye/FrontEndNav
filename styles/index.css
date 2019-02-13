@@ -308,6 +308,7 @@ body {
     background: #fff;
     overflow-x: scroll;
     width: 100%;
+    height: 40px;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
     top: 0;
@@ -318,22 +319,30 @@ body {
     -webkit-transform: translateZ(0);
     -webkit-box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
             box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    background-color: #44475a;
   }
   .container .left-bar .nav ul::-webkit-scrollbar {
     display: none;
   }
   .container .left-bar .nav ul li {
     display: inline-block;
-    padding: 0 0.5rem;
+    width: calc(100%/3);
+    padding-left: 0;
     line-height: 40px;
+    text-align: center;
     font-size: 14px;
+    color: #ccc;
   }
   .container .left-bar .nav ul li i {
     display: none;
   }
   .container .left-bar .nav ul li.active {
-    background-color: #3a85ff;
+    height: 40px;
+    background-color: #3C5671;
+    border-bottom: 3px solid #8c4a73;
     color: #fff;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s;
   }
   .container .main {
     padding-top: 40px;
@@ -344,12 +353,19 @@ body {
   }
   .container .main #mainContent {
     padding: 0 10px;
+    background: #67B26F;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, right top, left top, from(#4ca2cd), to(#67B26F));
+    background: linear-gradient(to left, #4ca2cd, #67B26F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   .container .main #mainContent .itemCart {
     margin: 0;
     margin-top: 16px;
     overflow: hidden;
     width: 100%;
+    opacity: .99;
   }
   .container .main #mainContent .itemCart:last-child {
     margin-bottom: 16px;
