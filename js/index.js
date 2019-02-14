@@ -13,7 +13,7 @@ $(function () {
     var floorId = $(this).attr("id");
     var floorName = floorId + "Item";
     // 获取楼层高度
-    var floorTop = $("#" + floorName).offset().top;
+    var floorTop = $("#" + floorName).offset().top - 40;
     // console.log(floorTop);
     $('html,body').stop().animate({
       scrollTop: floorTop
@@ -43,7 +43,7 @@ $(function () {
         $("#" + floorId).addClass("active");
         var index = $("#category li").index(document.querySelector("#" + floorId));
         var step = document.body.clientWidth / 3
-        var moveL = (index - 1) * step
+        var moveL = (index - 1) * (step + 4 )
 
         if (index > 1) {
           $("#category ul").scrollLeft(moveL)
