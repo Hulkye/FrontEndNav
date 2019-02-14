@@ -38,7 +38,19 @@ $(function () {
         $("#category li").each(function () {
           $(this).removeClass("active");
         })
+
+        //修改顶部导航栏==========================================
         $("#" + floorId).addClass("active");
+        var index = $("#category li").index(document.querySelector("#" + floorId));
+        var step = document.body.clientWidth / 3
+        var moveL = (index - 1) * step
+
+        if (index > 1) {
+          $("#category ul").scrollLeft(moveL)
+        } else {
+          $("#category ul").scrollLeft(0)
+        }
+        
       }
     })
 
