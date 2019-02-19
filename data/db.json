@@ -1829,6 +1829,18 @@
         "img_src": "./img/BrowserSandbox.png",
         "a_href": "https://turbo.net/browsers",
         "child_desc": "各大平台浏览器兼容性在线测试"
+      },
+      {
+        "child_name": "17ce网站测速",
+        "img_src": "./img/17ce.png",
+        "a_href": "https://www.17ce.com/",
+        "child_desc": "测试网站在全国各地和海外的打开速度，全面的报表功能、对比功能、地图展示、柱型图展示等专业测速网站"
+      },
+      {
+        "child_name": "IPIP.NET",
+        "img_src": "./img/ipip.png",
+        "a_href": "https://www.ipip.net/",
+        "child_desc": "最专业的 IP 地址库,该站有许多ip类工具"
       }
     ]
   },
