@@ -1,4 +1,4 @@
-window.isScroll = false
+window.isClick = false
 
 $(function() {
   NProgress.start()
@@ -33,32 +33,10 @@ $(function() {
     }
   )
 
-  // ========================判断是否存在滚动或者触屏事件==========================
-  var scrollFunc = function(e) {
-    e = e || window.event
-    if (e.wheelDelta) {
-      //判断浏览器IE，谷歌滑轮事件
-      if (e.wheelDelta != 0) {
-        isScroll = true
-      }
-    } else if (e.detail) {
-      //Firefox滑轮事件
-      if (e.detail != 0) {
-        isScroll = true
-      }
-    }
-  }
-  //给页面绑定滑轮滚动事件
-  if (document.addEventListener) {
-    document.addEventListener('DOMMouseScroll', scrollFunc, false)
-  }
-  //滚动滑轮触发scrollFunc方法
-  window.onmousewheel = document.onmousewheel = scrollFunc
-
   // ================================点击导航事件================================
   $('#category').on('click', 'li', function() {
     // 当前处在点击状态
-    isScroll = false
+    isClick = true;
     $('#category li').each(function() {
       $(this).removeClass('active')
     })
@@ -76,7 +54,12 @@ $(function() {
           scrollTop: floorTop
         },
         800,
-        'linear'
+        'linear',
+        function () {
+          setTimeout(function () {
+            isClick = false;
+          },800)
+        }
       )
   })
 
@@ -85,7 +68,7 @@ $(function() {
     // 获取屏幕滚动的高度
     var top = $('html,body').scrollTop() || $(window).scrollTop()
     // 判断页面是否手动滚动
-    if (isScroll) {
+    if (!isClick) {
       $('#mainContent > div').each(function() {
         // 获取当前盒子在浏览器的高度
         var floorHight = $(this).offset().top
