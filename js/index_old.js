@@ -1,40 +1,13 @@
-
-window.isScroll = false
+window.isClick = false
 
 $(function () {
   NProgress.start()
   NProgress.configure({ easing: 'ease', speed: 500 })
 
-  // ==========================判断是否存在滚动或者触屏事件==========================
-  var scrollFunc = function (e) {
-    e = e || window.event
-    if (e.wheelDelta) {
-      //判断浏览器IE，谷歌滑轮事件
-      if (e.wheelDelta != 0) {
-        //当滑轮向上滚动时
-        // console.log('滑轮在滚动')
-        isScroll = true
-      }
-    } else if (e.detail) {
-      //Firefox滑轮事件
-      if (e.detail != 0) {
-        //当滑轮向上滚动时
-        // console.log('滑轮在滚动')
-        isScroll = true
-      }
-    }
-  }
-  //给页面绑定滑轮滚动事件
-  if (document.addEventListener) {
-    document.addEventListener('DOMMouseScroll', scrollFunc, false)
-  }
-  //滚动滑轮触发scrollFunc方法
-  window.onmousewheel = document.onmousewheel = scrollFunc
-
-  //===============================点击导航事件=====================================
+  // 点击导航事件
   $('#category').on('click', 'li', function () {
     // 当前处在点击状态
-    isScroll = false
+    isClick = true;
     $('#category li').each(function () {
       $(this).removeClass('active')
     })
@@ -45,18 +18,14 @@ $(function () {
     // 获取楼层高度
     var floorTop = $('#' + floorName).offset().top - 40
     // console.log(floorTop);
-    $('html,body')
-      .stop()
-      .animate(
-        {
-          scrollTop: floorTop
-        },
-        800,
-        'linear'
-      )
+    $('html,body').stop().animate({
+      scrollTop: floorTop
+    }, 800, 'linear', function () {
+      isClick = false
+    });
   })
 
-  if (isScroll) {
+  if (isClick == false) {
     $(window).scroll(function () {
       // 获取屏幕滚动的高度
       var top = $('html,body').scrollTop() || $(window).scrollTop()
@@ -74,6 +43,7 @@ $(function () {
           $('#category li').each(function () {
             $(this).removeClass('active')
           })
+
           //修改顶部导航栏==========================================
           $('#' + floorId).addClass('active')
           var index = $('#category li').index(
@@ -91,7 +61,7 @@ $(function () {
       })
     })
   } else {
-    return false
+    return false;
   }
 
   // ============================数据请求业务==============================
