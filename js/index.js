@@ -1,98 +1,8 @@
-
 window.isScroll = false
 
-$(function () {
+$(function() {
   NProgress.start()
   NProgress.configure({ easing: 'ease', speed: 500 })
-
-  // ==========================判断是否存在滚动或者触屏事件==========================
-  var scrollFunc = function (e) {
-    e = e || window.event
-    if (e.wheelDelta) {
-      //判断浏览器IE，谷歌滑轮事件
-      if (e.wheelDelta != 0) {
-        //当滑轮向上滚动时
-        // console.log('滑轮在滚动')
-        isScroll = true
-      }
-    } else if (e.detail) {
-      //Firefox滑轮事件
-      if (e.detail != 0) {
-        //当滑轮向上滚动时
-        // console.log('滑轮在滚动')
-        isScroll = true
-      }
-    }
-  }
-  //给页面绑定滑轮滚动事件
-  if (document.addEventListener) {
-    document.addEventListener('DOMMouseScroll', scrollFunc, false)
-  }
-  //滚动滑轮触发scrollFunc方法
-  window.onmousewheel = document.onmousewheel = scrollFunc
-
-  //===============================点击导航事件=====================================
-  $('#category').on('click', 'li', function () {
-    // 当前处在点击状态
-    isScroll = false
-    $('#category li').each(function () {
-      $(this).removeClass('active')
-    })
-    $(this).addClass('active')
-    // 获取当前楼层名
-    var floorId = $(this).attr('id')
-    var floorName = floorId + 'Item'
-    // 获取楼层高度
-    var floorTop = $('#' + floorName).offset().top - 40
-    // console.log(floorTop);
-    $('html,body')
-      .stop()
-      .animate(
-        {
-          scrollTop: floorTop
-        },
-        800,
-        'linear'
-      )
-  })
-
-  if (isScroll) {
-    $(window).scroll(function () {
-      // 获取屏幕滚动的高度
-      var top = $('html,body').scrollTop() || $(window).scrollTop()
-
-      $('#mainContent > div').each(function () {
-        // 获取当前盒子在浏览器的高度
-        var floorHight = $(this).offset().top
-        // 获取当前楼层id
-        var floorName = $(this).attr('id')
-        var floorId = floorName.substring(0, floorName.length - 4)
-        // 设置楼层高度范围
-        var floorTop = floorHight
-        var floorFoot = floorHight + $('#' + floorId).height()
-        if (top >= floorTop && top <= floorFoot) {
-          $('#category li').each(function () {
-            $(this).removeClass('active')
-          })
-          //修改顶部导航栏==========================================
-          $('#' + floorId).addClass('active')
-          var index = $('#category li').index(
-            document.querySelector('#' + floorId)
-          )
-          var step = document.body.clientWidth / 3
-          var moveL = (index - 1) * (step + 4)
-          // 判断是否需要偏移
-          if (index > 1) {
-            $('#category ul').scrollLeft(moveL)
-          } else {
-            $('#category ul').scrollLeft(0)
-          }
-        }
-      })
-    })
-  } else {
-    return false
-  }
 
   // ============================数据请求业务==============================
   $.getJSON(
@@ -123,15 +33,102 @@ $(function () {
     }
   )
 
+  // ========================判断是否存在滚动或者触屏事件==========================
+  var scrollFunc = function(e) {
+    e = e || window.event
+    if (e.wheelDelta) {
+      //判断浏览器IE，谷歌滑轮事件
+      if (e.wheelDelta != 0) {
+        isScroll = true
+      }
+    } else if (e.detail) {
+      //Firefox滑轮事件
+      if (e.detail != 0) {
+        isScroll = true
+      }
+    }
+  }
+  //给页面绑定滑轮滚动事件
+  if (document.addEventListener) {
+    document.addEventListener('DOMMouseScroll', scrollFunc, false)
+  }
+  //滚动滑轮触发scrollFunc方法
+  window.onmousewheel = document.onmousewheel = scrollFunc
+
+  // ================================点击导航事件================================
+  $('#category').on('click', 'li', function() {
+    // 当前处在点击状态
+    isScroll = false
+    $('#category li').each(function() {
+      $(this).removeClass('active')
+    })
+    $(this).addClass('active')
+    // 获取当前楼层名
+    var floorId = $(this).attr('id')
+    var floorName = floorId + 'Item'
+    // 获取楼层高度
+    var floorTop = $('#' + floorName).offset().top - 40
+    // console.log(floorTop);
+    $('html,body')
+      .stop()
+      .animate(
+        {
+          scrollTop: floorTop
+        },
+        800,
+        'linear'
+      )
+  })
+
+  //==============================监听页面滚动事件================================
+  $(window).scroll(function() {
+    // 获取屏幕滚动的高度
+    var top = $('html,body').scrollTop() || $(window).scrollTop()
+    // 判断页面是否手动滚动
+    if (isScroll) {
+      $('#mainContent > div').each(function() {
+        // 获取当前盒子在浏览器的高度
+        var floorHight = $(this).offset().top
+        // 获取当前楼层id
+        var floorName = $(this).attr('id')
+        var floorId = floorName.substring(0, floorName.length - 4)
+        // 设置楼层高度范围
+        var floorTop = floorHight
+        var floorFoot = floorHight + $('#' + floorId).height()
+        if (top >= floorTop && top <= floorFoot) {
+          $('#category li').each(function() {
+            $(this).removeClass('active')
+          })
+
+          //修改顶部导航栏==========================================
+          $('#' + floorId).addClass('active')
+          var index = $('#category li').index(
+            document.querySelector('#' + floorId)
+          )
+          var step = document.body.clientWidth / 3
+          var moveL = (index - 1) * (step + 4)
+          // 判断是否需要偏移
+          if (index > 1) {
+            $('#category ul').scrollLeft(moveL)
+          } else {
+            $('#category ul').scrollLeft(0)
+          }
+        }
+      })
+    } else {
+      return false
+    }
+  })
+
   // ============================返回顶部业务==============================
-  function goTop () {
+  function goTop() {
     let offset = 300,
       offset_opacity = 1200,
       scroll_top_duration = 700,
       $goTopBtn = $('.goTop')
 
     // c窗口滚动事件
-    $(window).scroll(function () {
+    $(window).scroll(function() {
       $goTopBtn.removeClass('.goTop:hover')
       $(this).scrollTop() > offset
         ? $goTopBtn.addClass('btn-is-visible')
@@ -142,7 +139,7 @@ $(function () {
     })
 
     // 返回顶部按钮点击事件
-    $goTopBtn.on('click', function (event) {
+    $goTopBtn.on('click', function(event) {
       event.preventDefault()
       $('body,html').animate(
         {
