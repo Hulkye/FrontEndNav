@@ -540,12 +540,6 @@
         "child_desc": "一个用于创建 web 应用的 JavaScript MVC 框架"
       },
       {
-        "child_name": "mpvue",
-        "img_src": "./img/mpvue.png",
-        "a_href": "http://mpvue.com/",
-        "child_desc": "基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系"
-      },
-      {
         "child_name": "Preact",
         "img_src": "./img/preact.png",
         "a_href": "https://preactjs.com/",
@@ -625,12 +619,6 @@
         "img_src": "./img/layui.jpg",
         "a_href": "https://www.layui.com/",
         "child_desc": "一款采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写与组织形式，门槛极低，拿来即用"
-      },
-      {
-        "child_name": "WeUI",
-        "img_src": "./img/weui.png",
-        "a_href": "https://github.com/Tencent/weui",
-        "child_desc": "一套同微信原生视觉体验一致的基础样式库 为微信 Web 开发量身设计，令用户的使用感知更加统一"
       },
       {
         "child_name": "AmazeUI",
@@ -1652,6 +1640,51 @@
         "img_src": "./img/vueawesometiny.png",
         "a_href": "http://vue.awesometiny.com/",
         "child_desc": "vue资源精选-前端组件库资源-前端选型"
+      }
+    ]
+  },
+
+  {
+    "Category_id": "miniProgram",
+    "category_CN": "小程序相关",
+    "category_icon": "icon-xiaochengxu1",
+    "category_item": "miniProgramItem",
+    "item_children": [
+      {
+        "child_name": "微信小程序文档",
+        "img_src": "./img/weixin.png",
+        "a_href": "https://developers.weixin.qq.com/miniprogram/dev/index.html",
+        "child_desc": "微信小程序官方开发者文档"
+      },
+      {
+        "child_name": "微信开发者社区",
+        "img_src": "./img/developersweixin.png",
+        "a_href": "https://developers.weixin.qq.com/miniprogram/dev/index.html",
+        "child_desc": "小程序开发者专区，微信公众平台,微信开放社区,开发者专区"
+      },
+      {
+        "child_name": "WePY",
+        "img_src": "./img/wepy.png",
+        "a_href": "https://tencent.github.io/wepy/",
+        "child_desc": "支持组件化的小程序开发框架"
+      },
+      {
+        "child_name": "mpvue",
+        "img_src": "./img/mpvue.png",
+        "a_href": "http://mpvue.com/",
+        "child_desc": "基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系"
+      },
+      {
+        "child_name": "WeUI",
+        "img_src": "./img/weui.png",
+        "a_href": "https://github.com/Tencent/weui",
+        "child_desc": "一套同微信原生视觉体验一致的基础样式库 为微信 Web 开发量身设计，令用户的使用感知更加统一"
+      },
+      {
+        "child_name": "Taro",
+        "img_src": "./img/taro.png",
+        "a_href": "https://taro.js.org/",
+        "child_desc": "使用 React 的方式开发小程序的框架，同时支持生成多端应用"
       }
     ]
   },
