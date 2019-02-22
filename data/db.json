@@ -1697,6 +1697,12 @@
         "img_src": "./img/cmljs.png",
         "a_href": "https://cmljs.org/#/",
         "child_desc": "一套代码运行多端，一端所见即多端所见"
+      },
+      {
+        "child_name": "小程序社区",
+        "img_src": "./img/wxapp-union.png",
+        "a_href": "http://www.wxapp-union.com/",
+        "child_desc": "小程序社区|小程序开发社区-小程序开发联盟"
       }
     ]
   },
