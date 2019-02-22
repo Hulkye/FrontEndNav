@@ -1663,6 +1663,12 @@
         "child_desc": "小程序开发者专区，微信公众平台,微信开放社区,开发者专区"
       },
       {
+        "child_name": "微信小程序开发资源汇总",
+        "img_src": "./img/awesome-wechat-weapp.png",
+        "a_href": "https://github.com/justjavac/awesome-wechat-weapp",
+        "child_desc": "微信小程序开发资源汇总 awesome-wechat-weapp"
+      },
+      {
         "child_name": "WePY",
         "img_src": "./img/wepy.png",
         "a_href": "https://tencent.github.io/wepy/",
@@ -1685,6 +1691,12 @@
         "img_src": "./img/taro.png",
         "a_href": "https://taro.js.org/",
         "child_desc": "使用 React 的方式开发小程序的框架，同时支持生成多端应用"
+      },
+      {
+        "child_name": "Chameleon",
+        "img_src": "./img/cmljs.png",
+        "a_href": "https://cmljs.org/#/",
+        "child_desc": "一套代码运行多端，一端所见即多端所见"
       }
     ]
   },
