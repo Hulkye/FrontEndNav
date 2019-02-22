@@ -1823,6 +1823,24 @@
         "img_src": "./img/MarkdownViewer.png",
         "a_href": "https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=zh-CN",
         "child_desc": "在浏览器中查看markdown文档,免去应用之间的切换"
+      },
+      {
+        "child_name": "Wappalyzer",
+        "img_src": "./img/wappalyzer.png",
+        "a_href": "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg",
+        "child_desc": "分析目标网站所采用的平台构架、网站环境、服务器配置环境、JavaScript框架、编程语言等参数的chrome网站技术分析插件"
+      },
+      {
+        "child_name": "Octotree",
+        "img_src": "./img/octotree.png",
+        "a_href": "https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en-US",
+        "child_desc": "超实用的GitHub可视化代码树插件"
+      },
+      {
+        "child_name": "Ghelper",
+        "img_src": "./img/ghelper.png",
+        "a_href": "https://chrome.google.com/webstore/detail/%E8%B0%B7%E6%AD%8C%E4%B8%8A%E7%BD%91%E5%8A%A9%E6%89%8B-%E5%BC%80%E5%8F%91%E7%89%88/cieikaeocafmceoapfogpffaalkncpkc?hl=en-US",
+        "child_desc": "可以免费使用谷歌系列服务的插件"
       }
     ]
   },
