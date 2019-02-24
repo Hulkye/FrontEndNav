@@ -552,6 +552,18 @@
         "img_src": "./img/kissy.png",
         "a_href": "http://docs.kissyui.com/",
         "child_desc": "KISSY 是一款跨终端、模块化、高性能、使用简单的 JavaScript 框架。"
+      },
+      {
+        "child_name": "RequireJS",
+        "img_src": "./img/requirejs.png",
+        "a_href": "http://www.requirejs.cn/",
+        "child_desc": "RequireJS是一个非常小巧的JavaScript模块载入框架,是AMD规范最好的实现者之一"
+      },
+      {
+        "child_name": "Sea.js",
+        "img_src": "./img/seajs.png",
+        "a_href": "https://seajs.github.io/seajs/docs/",
+        "child_desc": "SeaJS是一个遵循CMD规范的JavaScript模块加载框架"
       }
     ]
   },
