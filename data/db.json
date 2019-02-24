@@ -139,7 +139,6 @@
       }
     ]
   },
-
   {
     "Category_id": "apiDoc",
     "category_CN": "文档API",
@@ -226,7 +225,6 @@
       }
     ]
   },
-
   {
     "Category_id": "portalsCommunity",
     "category_CN": "门户&社区",
@@ -379,7 +377,6 @@
       }
     ]
   },
-
   {
     "Category_id": "organization",
     "category_CN": "组织团队",
@@ -478,7 +475,6 @@
       }
     ]
   },
-
   {
     "Category_id": "framework",
     "category_CN": "框架类库",
@@ -559,7 +555,6 @@
       }
     ]
   },
-
   {
     "Category_id": "UIFrame",
     "category_CN": "UI框架",
@@ -664,7 +659,6 @@
       }
     ]
   },
-
   {
     "Category_id": "JavaScriptAbout",
     "category_CN": "JavaScript相关",
@@ -715,7 +709,6 @@
       }
     ]
   },
-
   {
     "Category_id": "cssAbout",
     "category_CN": "CSS相关",
@@ -866,10 +859,8 @@
         "a_href": "https://fontspark.app/",
         "child_desc": "随机字体在线预览，用过都说好。"
       }
-
     ]
   },
-
   {
     "Category_id": "codeSource",
     "category_CN": "代码素材/片段",
@@ -956,7 +947,6 @@
       }
     ]
   },
-
   {
     "Category_id": "templatePlug",
     "category_CN": "模板插件",
@@ -1109,7 +1099,6 @@
       }
     ]
   },
-
   {
     "Category_id": "graphical",
     "category_CN": "可视化",
@@ -1160,7 +1149,6 @@
       }
     ]
   },
-
   {
     "Category_id": "buildTools",
     "category_CN": "编译&构建&打包",
@@ -1247,7 +1235,6 @@
       }
     ]
   },
-
   {
     "Category_id": "ide",
     "category_CN": "编辑器/IDE",
@@ -1298,7 +1285,6 @@
       }
     ]
   },
-
   {
     "Category_id": "fontIco",
     "category_CN": "字体图标",
@@ -1409,7 +1395,6 @@
       }
     ]
   },
-
   {
     "Category_id": "vision",
     "category_CN": "视觉设计",
@@ -1498,7 +1483,7 @@
         "child_name": "Lapa",
         "img_src": "./img/lapa.png",
         "a_href": "https://www.lapa.ninja/",
-        "child_desc": "Landing页灵感"
+        "child_desc": "产品官网、落地页设计欣赏"
       },
       {
         "child_name": "Cool Backgrounds",
@@ -1556,7 +1541,6 @@
       }
     ]
   },
-
   {
     "Category_id": "vueEcology",
     "category_CN": "Vue生态",
@@ -1640,10 +1624,45 @@
         "img_src": "./img/vueawesometiny.png",
         "a_href": "http://vue.awesometiny.com/",
         "child_desc": "vue资源精选-前端组件库资源-前端选型"
+      },
+      {
+        "child_name": "Eagle.js",
+        "img_src": "./img/eaglejs.png",
+        "a_href": "https://github.com/Zulko/eagle.js",
+        "child_desc": "一个使用 Vue.js 开发的幻灯片框架"
+      },
+      {
+        "child_name": "Vue-grid-layout",
+        "img_src": "./img/vue-grid-layout.png",
+        "a_href": "https://github.com/jbaysolutions/vue-grid-layout",
+        "child_desc": "Vue.js 可拖动且可调整大小的网格布局"
+      },
+      {
+        "child_name": "vue-content-loader",
+        "img_src": "./img/vue-content-loader.png",
+        "a_href": "https://github.com/egoist/vue-content-loader",
+        "child_desc": "用于创建占位符加载的 SVG 组件，例如 Facebook 卡片加载"
+      },
+      {
+        "child_name": "vue-virtual-scroller",
+        "img_src": "./img/vue-virtual-scroller.png",
+        "a_href": "https://github.com/Akryum/vue-virtual-scroller",
+        "child_desc": "可以平滑滚动任意数量的数据"
+      },
+      {
+        "child_name": "Mand Mobile",
+        "img_src": "./img/mand-mobile.png",
+        "a_href": "https://mand-mobile.github.io/",
+        "child_desc": "面向金融场景的Vue移动端UI组件库"
+      },
+      {
+        "child_name": "Vue-design-system",
+        "img_src": "./img/vueds.png",
+        "a_href": "https://vueds.com/",
+        "child_desc": "一个用于基于 Vue.js 构建 UI 设计系统的开源工具"
       }
     ]
   },
-
   {
     "Category_id": "miniProgram",
     "category_CN": "小程序相关",
@@ -1706,7 +1725,6 @@
       }
     ]
   },
-
   {
     "Category_id": "blog",
     "category_CN": "大牛博客",
@@ -1781,7 +1799,6 @@
       }
     ]
   },
-
   {
     "Category_id": "chrome",
     "category_CN": "chrome插件",
@@ -1850,7 +1867,6 @@
       }
     ]
   },
-
   {
     "Category_id": "aidedDevTools",
     "category_CN": " 辅助开发工具",
@@ -1922,10 +1938,15 @@
         "img_src": "./img/ipip.png",
         "a_href": "https://www.ipip.net/",
         "child_desc": "最专业的 IP 地址库,该站有许多ip类工具"
+      },
+      {
+        "child_name": "Easy Mock",
+        "img_src": "./img/easymock.png",
+        "a_href": "https://easy-mock.com",
+        "child_desc": "Easy Mock 是一个可视化, 并且能快速生成模拟数据的持久化服务."
       }
     ]
   },
-
   {
     "Category_id": "otherTools",
     "category_CN": " 其他工具",
@@ -1991,10 +2012,15 @@
         "img_src": "./img/youdaonote.png",
         "a_href": "https://note.youdao.com/web",
         "child_desc": "个人觉得比印象笔记好用的云笔记"
+      },
+      {
+        "child_name": "SVG To PNG",
+        "img_src": "./img/svgtopng.png",
+        "a_href": "https://svgtopng.com/zh/",
+        "child_desc": "免费在线SVG转PNG网站"
       }
     ]
   },
-  
   {
     "Category_id": "conference",
     "category_CN": "前端大会",
@@ -2039,7 +2065,6 @@
       }
     ]
   },
-
   {
     "Category_id": "contentManagement",
     "category_CN": "内容管理",
@@ -2108,7 +2133,6 @@
       }
     ]
   },
-
   {
     "Category_id": "someWebsite",
     "category_CN": "一些网站",
