@@ -668,6 +668,12 @@
         "img_src": "./img/getpapercss.png",
         "a_href": "https://www.getpapercss.com/",
         "child_desc": "一个不太常规的CSS框架，如果你希望你的网站有手绘风格感觉，选择它准没错。"
+      },
+      {
+        "child_name": "FlowUI",
+        "img_src": "./img/flowui.png",
+        "a_href": "https://flow-ui.refined-x.com/",
+        "child_desc": "基于Seajs/jQuery构建，内置CSS组件、JS插件、模块化开发体系、自动化开发工具、常见场景解决方案。"
       }
     ]
   },
@@ -1672,6 +1678,12 @@
         "img_src": "./img/vueds.png",
         "a_href": "https://vueds.com/",
         "child_desc": "一个用于基于 Vue.js 构建 UI 设计系统的开源工具"
+      },
+      {
+        "child_name": "Vue-Access-Control",
+        "img_src": "./img/vueac.png",
+        "a_href": "https://github.com/tower1229/Vue-Access-Control",
+        "child_desc": "一套基于Vue/Vue-Router/axios 实现的前端用户权限控制解决方案"
       }
     ]
   },
