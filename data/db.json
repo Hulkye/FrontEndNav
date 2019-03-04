@@ -1114,6 +1114,12 @@
         "img_src": "./img/quicklink.png",
         "a_href": "https://github.com/GoogleChromeLabs/quicklink",
         "child_desc": "quicklink 是一个通过预加载资源来提升后续方案速度的轻量级工具库。旨在提升浏览过程中，用户访问后续页面时的加载速度。"
+      },
+      {
+        "child_name": "AJAX-Cache",
+        "img_src": "./img/ajax-cache.png",
+        "a_href": "https://github.com/tower1229/AJAX-Cache",
+        "child_desc": "AJAX-Cache是一款jQuery插件，基于localStorage/sessionStorage实现异步请求缓存功能，并提供“快照”和“定时”两种缓存模式。"
       }
     ]
   },
