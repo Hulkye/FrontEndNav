@@ -1684,6 +1684,12 @@
         "img_src": "./img/vueac.png",
         "a_href": "https://github.com/tower1229/Vue-Access-Control",
         "child_desc": "一套基于Vue/Vue-Router/axios 实现的前端用户权限控制解决方案"
+      },
+      {
+        "child_name": "Vue-Tree-Chart",
+        "img_src": "./img/vuetc.png",
+        "a_href": "https://github.com/tower1229/Vue-Tree-Chart",
+        "child_desc": "基于Vue2的树形图组件"
       }
     ]
   },
