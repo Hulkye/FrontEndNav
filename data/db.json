@@ -1820,6 +1820,12 @@
         "img_src": "./img/yexiaochai.png",
         "a_href": "http://www.cnblogs.com/yexiaochai",
         "child_desc": "刀狂剑痴叶小钗"
+      },
+      {
+        "child_name": "雅X共赏",
+        "img_src": "./img/yaxgongshang.png",
+        "a_href": "https://refined-x.com/",
+        "child_desc": "枪在手，跟我走，前端路上不回头"
       }
     ]
   },
