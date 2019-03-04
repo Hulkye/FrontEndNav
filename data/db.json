@@ -136,7 +136,14 @@
         "img_src": "./img/jspang.png",
         "a_href": "https://jspang.com/",
         "child_desc": "技术胖,该站有很多免费的前端学习视频"
+      },
+      {
+        "child_name": "前端周刊",
+        "img_src": "./img/frontenddevhandbook.png",
+        "a_href": "https://frontend-weekly.com/",
+        "child_desc": "前端周刊，给前端同学准备的每周1小时阅读清单"
       }
+      
     ]
   },
   {
