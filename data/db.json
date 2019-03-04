@@ -136,6 +136,12 @@
         "img_src": "./img/jspang.png",
         "a_href": "https://jspang.com/",
         "child_desc": "技术胖,该站有很多免费的前端学习视频"
+      },
+      {
+        "child_name": "前端周刊",
+        "img_src": "./img/frontenddevhandbook.png",
+        "a_href": "https://frontend-weekly.com/",
+        "child_desc": "前端周刊，给前端同学准备的每周1小时阅读清单"
       }
     ]
   },
@@ -1114,6 +1120,12 @@
         "img_src": "./img/quicklink.png",
         "a_href": "https://github.com/GoogleChromeLabs/quicklink",
         "child_desc": "quicklink 是一个通过预加载资源来提升后续方案速度的轻量级工具库。旨在提升浏览过程中，用户访问后续页面时的加载速度。"
+      },
+      {
+        "child_name": "AJAX-Cache",
+        "img_src": "./img/ajax-cache.png",
+        "a_href": "https://github.com/tower1229/AJAX-Cache",
+        "child_desc": "AJAX-Cache是一款jQuery插件，基于localStorage/sessionStorage实现异步请求缓存功能，并提供“快照”和“定时”两种缓存模式。"
       }
     ]
   },
@@ -1684,6 +1696,12 @@
         "img_src": "./img/vueac.png",
         "a_href": "https://github.com/tower1229/Vue-Access-Control",
         "child_desc": "一套基于Vue/Vue-Router/axios 实现的前端用户权限控制解决方案"
+      },
+      {
+        "child_name": "Vue-Tree-Chart",
+        "img_src": "./img/vuetc.png",
+        "a_href": "https://github.com/tower1229/Vue-Tree-Chart",
+        "child_desc": "基于Vue2的树形图组件"
       }
     ]
   },
@@ -1820,6 +1838,12 @@
         "img_src": "./img/yexiaochai.png",
         "a_href": "http://www.cnblogs.com/yexiaochai",
         "child_desc": "刀狂剑痴叶小钗"
+      },
+      {
+        "child_name": "雅X共赏",
+        "img_src": "./img/yaxgongshang.png",
+        "a_href": "https://refined-x.com/",
+        "child_desc": "枪在手，跟我走，前端路上不回头"
       }
     ]
   },
