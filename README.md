@@ -47,7 +47,6 @@
 - **使用iconfont提供的图标**
 - **ajax请求json文件**
 - **art-template页面渲染**
-- **holder.js占位图渲染**
 - **echo.js实现图片懒加载**
 - **nprogress实现页面加载进度条**
 
