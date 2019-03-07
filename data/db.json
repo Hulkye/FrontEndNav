@@ -1602,10 +1602,28 @@
         "child_desc": "Vue.js 官方脚手架工具"
       },
       {
+        "child_name": "awesome-vue",
+        "img_src": "./img/awesome-vue.png",
+        "a_href": "https://github.com/vuejs/awesome-vue",
+        "child_desc": "(vue资源汇总)与Vue.js相关的精彩内容和精选列表"
+      },
+      {
+        "child_name": "awesome-github-vue",
+        "img_src": "./img/awesome-github-vue.png",
+        "a_href": "https://github.com/opendigg/awesome-github-vue",
+        "child_desc": "Vue相关开源项目库汇总(中文)"
+      },
+      {
         "child_name": "ElementUI",
         "img_src": "./img/element.png",
         "a_href": "http://element-cn.eleme.io/#/zh-CN",
         "child_desc": "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+      },
+      {
+        "child_name": "Ant Design Vue",
+        "img_src": "./img/ant-design-vue.png",
+        "a_href": "https://vue.ant.design/docs/vue/introduce-cn/",
+        "child_desc": "Ant Design 的 Vue 实现，开发和服务于企业级后台产品。"
       },
       {
         "child_name": "vant",
