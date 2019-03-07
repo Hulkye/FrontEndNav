@@ -25,7 +25,7 @@
 
 ***PC端效果图:***
 
-![PC-view](./img/PC-view.png)
+![PC-view](./img/PC-view .png)
 
 
 
@@ -35,7 +35,7 @@
 
 ***移动端效果图:***
 
-![mobie-view](./img/mobie-view.png)
+![mobie-view](./img/mobie-view .png)
 
 
 
