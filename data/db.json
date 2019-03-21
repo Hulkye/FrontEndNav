@@ -402,12 +402,6 @@
         "child_desc": "奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队。"
       },
       {
-        "child_name": "奇舞团",
-        "img_src": "./img/75team.png",
-        "a_href": "https://75team.com/",
-        "child_desc": "奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队。"
-      },
-      {
         "child_name": "百度EFE",
         "img_src": "./img/efebaidu.png",
         "a_href": "http://efe.baidu.com/",
@@ -1871,6 +1865,13 @@
     "category_icon": "icon-iconset0284",
     "category_item": "chromeItem",
     "item_children": [
+      
+      {
+        "child_name": "Chrome插件英雄榜",
+        "img_src": "./img/ChromeAppHeroes.png",
+        "a_href": "https://zhaoolee.gitbooks.io/chrome/content/",
+        "child_desc": "为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类"
+      },
       {
         "child_name": "扩展迷 - 谷歌扩展商店",
         "img_src": "./img/extfans.png",
