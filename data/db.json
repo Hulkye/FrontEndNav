@@ -2223,6 +2223,36 @@
         "img_src": "./img/liumingyevideo.png",
         "a_href": "http://tool.liumingye.cn/video/",
         "child_desc": "优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,视频解析,全能VIP视频解析,视频在线解析"
+      },
+      {
+        "child_name": "MSDN，我告诉你",
+        "img_src": "./img/itellyou.png",
+        "a_href": "https://msdn.itellyou.cn/",
+        "child_desc": "主要分享微软旗下产品，在这里可以下载到纯净版Windows系统、Office办公软件以及微软其它应用程序"
+      },
+      {
+        "child_name": "走114查询网",
+        "img_src": "./img/zou114.png",
+        "a_href": "http://www.zou114.com/",
+        "child_desc": "提供常见与不常见的查询，说不定哪天就用上"
+      },
+      {
+        "child_name": "大眼仔旭",
+        "img_src": "./img/dayanzai.png",
+        "a_href": "http://www.dayanzai.me/",
+        "child_desc": "主要分享各种Win平台实用工具，涵盖：图形图像、屏幕录像、网络软件、办公软件、格式转换、系统工具……以及各类实用的安卓应用软件"
+      },
+      {
+        "child_name": "Smallpdf",
+        "img_src": "./img/cowtransfer.png",
+        "a_href": "https://cowtransfer.com/",
+        "child_desc": "据说该网站是全世界浏览人数最多的PDF格式转换网站，网站中包含18种与PDF相关的转换方式，功能一应俱全、绝对是简单好用的线上 PDF 处理工具"
+      },
+      {
+        "child_name": "奶牛快传",
+        "img_src": "./img/smallpdf.png",
+        "a_href": "https://smallpdf.com/cn",
+        "child_desc": "一款临时文件传输平台"
       }
     ]
   }
