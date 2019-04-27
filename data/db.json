@@ -142,6 +142,12 @@
         "img_src": "./img/frontenddevhandbook.png",
         "a_href": "https://frontend-weekly.com/",
         "child_desc": "前端周刊，给前端同学准备的每周1小时阅读清单"
+      },
+      {
+        "child_name": "Git的奇技淫巧",
+        "img_src": "./img/frontend-notebook.png",
+        "a_href": "https://github.com/521xueweihan/git-tips",
+        "child_desc": "列举了常用的 Git 命令和一些小技巧"
       }
     ]
   },
@@ -1416,6 +1422,12 @@
         "img_src": "./img/unicons.png",
         "a_href": "https://iconscout.com/unicons",
         "child_desc": "超過 1000 個向量圖示免費下載，完美像素放大縮小不影響解析度"
+      },
+      {
+        "child_name": "Ikonate",
+        "img_src": "./img/ikonate.png",
+        "a_href": "https://www.ikonate.com/",
+        "child_desc": "完全可定制的矢量图标"
       }
     ]
   },
@@ -2085,6 +2097,12 @@
         "img_src": "./img/svgtopng.png",
         "a_href": "https://svgtopng.com/zh/",
         "child_desc": "免费在线SVG转PNG网站"
+      },
+      {
+        "child_name": " Awesome Windows",
+        "img_src": "./img/frontend-notebook.png",
+        "a_href": "https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md",
+        "child_desc": "Windows上优质&精选的最佳应用程序及工具列表。"
       }
     ]
   },
@@ -2253,6 +2271,92 @@
         "img_src": "./img/smallpdf.png",
         "a_href": "https://smallpdf.com/cn",
         "child_desc": "一款临时文件传输平台"
+      },
+      {
+        "child_name": "MikuTools-工具集合",
+        "img_src": "./img/MikuTools.png",
+        "a_href": "https://miku.tools/",
+        "child_desc": "一个轻量的工具集合"
+      }
+    ]
+  },
+  {
+    "Category_id": "environment",
+    "category_CN": "作业环境",
+    "category_icon": "icon-aixin",
+    "category_item": "environmentItem",
+    "item_children": [
+      {
+        "child_name": "VS Code",
+        "img_src": "./img/vscode.png",
+        "a_href": "https://code.visualstudio.com/",
+        "child_desc": "这个不多说，个人开发编辑器"
+      },
+      {
+        "child_name": "Node.js",
+        "img_src": "./img/nodeapp.png",
+        "a_href": "http://nodejs.cn/download/",
+        "child_desc": "JavaScript 运行环境"
+      },
+      {
+        "child_name": "Git",
+        "img_src": "./img/git.png",
+        "a_href": "https://git-scm.com/",
+        "child_desc": "版本控制工具"
+      },
+      {
+        "child_name": "马克鳗",
+        "img_src": "./img/markman.png",
+        "a_href": "http://www.getmarkman.com/",
+        "child_desc": "高效的设计稿标注、测量工具"
+      },
+      {
+        "child_name": "PxCook",
+        "img_src": "./img/pxcook.png",
+        "a_href": "https://www.fancynode.com.cn/pxcook",
+        "child_desc": "高效易用的自动标注工具, 生成前端代码"
+      },
+      {
+        "child_name": "Bandizip",
+        "img_src": "./img/bandizip.png",
+        "a_href": "http://www.bandizip.com/",
+        "child_desc": "个人最满意的压缩工具，没有之一"
+      },
+      {
+        "child_name": "Typora",
+        "img_src": "./img/typora.png",
+        "a_href": "https://www.typora.io/",
+        "child_desc": "一个适合新手的md编辑器，很好用"
+      },
+      {
+        "child_name": "ScreenToGif",
+        "img_src": "./img/ScreenToGif.png",
+        "a_href": "https://www.screentogif.com/?l=zh_cn",
+        "child_desc": "非常好用的gif生成器"
+      },
+      {
+        "child_name": "Fences",
+        "img_src": "./img/fences.png",
+        "a_href": "https://www.stardock.com/products/fences/",
+        "child_desc": "最好的桌面整理软件"
+      },
+      {
+        "child_name": "Everything",
+        "img_src": "./img/Everything.png",
+        "a_href": "https://www.voidtools.com/zh-cn/",
+        "child_desc": "快速定位本地资源文件"
+      },
+      {
+        "child_name": "Listary",
+        "img_src": "./img/listary.png",
+        "a_href": "https://www.listary.com/",
+        "child_desc": "文件名定位/搜索辅助软件"
+      },
+      {
+        "child_name": "Snipaste",
+        "img_src": "./img/snipaste.png",
+        "a_href": "https://www.snipaste.com/",
+        "child_desc": "最好用的截图软件，没有之一"
       }
     ]
   }
