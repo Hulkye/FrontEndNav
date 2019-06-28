@@ -224,6 +224,14 @@ body {
   -webkit-box-orient: vertical;
 }
 
+.container .main .own {
+  display: none;
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 2px dashed #94527e;
+}
+
 .container .footer {
   width: 100%;
   bottom: 0;

@@ -42,6 +42,7 @@
   <link rel="stylesheet" href="./styles/reset.css" />
   <link rel="stylesheet" href="./font/iconfont.css" />
   <link rel="stylesheet" href="./styles/nprogress.css" />
+  <link rel="stylesheet" href="./styles/search.css" />
   <link rel="stylesheet" href="./styles/index.css" />
 </head>
 
@@ -65,13 +66,14 @@
             <ul>
               <!-- 导航栏分类渲染 -->
               <script id="CategoryId" type="text/html">
-                  {{each list value index}}
-                      <li id="{{value.Category_id}}" class="{{index==0 ? 'active' : ''}}">
-                          <a data-id="{{value.Category_id}}">
-                              <i data-id="{{value.Category_id}}" class="iconfont {{value.category_icon}}"></i>{{value.category_CN}}
-                          </a>
-                      </li>
-                  {{/each}}
+                {{each list value index}}
+                <li id="{{value.Category_id}}" class="{{index==0 ? 'active' : ''}}">
+                  <a data-id="{{value.Category_id}}">
+                    <i data-id="{{value.Category_id}}"
+                      class="iconfont {{value.category_icon}}"></i>{{value.category_CN}}
+                  </a>
+                </li>
+                {{/each}}
               </script>
             </ul>
           </div>
@@ -88,35 +90,61 @@
 
     <!-- 主体内容 -->
     <div class="main" id="mainWrap">
+      <!-- 个人bar -->
+      <section class="own"></section>
+
+      <!-- 搜索框 -->
+      <section class="sousuo">
+        <div class="search">
+          <div class="search-box">
+            <i class="iconfont icon-baidu" id="search-icon"></i>
+            <input type="text" id="txt" class="search-input" placeholder="GoodDay 输入关键字，按回车 / Enter 搜索">
+            <i class="iconfont icon-shanchu1" id="search-clear" style="display: none;"></i>
+          </div>
+          <!-- 搜索热词 -->
+          <div class="box search-hot-text" id="box" style="display: none;">
+            <ul></ul>
+          </div>
+          <!-- 搜索引擎 -->
+          <div class="search-engine" style="display: none;">
+            <div class="search-engine-head">
+              <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+              <div class="search-engine-tool">搜索热词：<span id="hot-btn"></span></div>
+            </div>
+            <ul class="search-engine-list"></ul>
+          </div>
+        </div>
+      </section>
+
       <div id="mainContent">
         <!-- 分类选项卡模板 -->
         <script id="navItemId" type="text/html">
-            {{each list value index}}
-            <div class="itemCart" id="{{value.category_item}}">
-                <div class="sub-category">
-                    <div>
-                        <i class="iconfont {{value.category_icon}}"></i>
-                        {{value.category_CN}}
-                    </div>
-                </div>
-                <div>
-                    {{each value.item_children value index}}
-                    <a target="_blank" href="{{value.a_href}}">
-                        <div class="item">
-                            <div class="logo">
-                                <img width="100%" class="loaded lazy" data-echo="{{value.img_src}}" src="./img/loading.gif">
-                                <span>{{value.child_name}}</span>
-                            </div>
-                            <div class="desc">
-                                {{value.child_desc}}
-                            </div>
-                        </div>
-                    </a>
-                    {{/each}}
-                </div>
+          {{each list value index}}
+          <div class="itemCart" id="{{value.category_item}}">
+            <div class="sub-category">
+              <div>
+                <i class="iconfont {{value.category_icon}}"></i>
+                {{value.category_CN}}
+              </div>
             </div>
-            {{/each}}
-          </script>
+            <div>
+              {{each value.item_children value index}}
+              <a target="_blank" href="{{value.a_href}}">
+                <div class="item">
+                  <div class="logo">
+                    <img width="100%" class="loaded lazy" data-echo="{{value.img_src}}" src="./img/loading.gif">
+                    <span>{{value.child_name}}</span>
+                  </div>
+                  <div class="desc">
+                    {{value.child_desc}}
+                  </div>
+                </div>
+              </a>
+              {{/each}}
+            </div>
+          </div>
+          {{/each}}
+        </script>
       </div>
 
       <!-- 尾部 -->
@@ -139,8 +167,11 @@
     <!-- cnzz站长统计 -->
     <div style="width: 0; height: 0; overflow: hidden;">
       <script type="text/javascript" src="https://s5.cnzz.com/z_stat.php?id=1276421227&web_id=1276421227"></script>
-      <script
-        type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1276421227'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1276421227' type='text/javascript'%3E%3C/script%3E"));</script>
+      <script type="text/javascript">
+        var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1276421227'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+          "s5.cnzz.com/z_stat.php%3Fid%3D1276421227' type='text/javascript'%3E%3C/script%3E"));
+      </script>
     </div>
   </div>
 
@@ -149,6 +180,7 @@
 <script src="./js/echo.min.js"></script>
 <script src="./js/template-web.js"></script>
 <script src="./js/nprogress.js"></script>
+<script src="./js/search.js"></script>
 <script src="./js/index.js"></script>
 
 </html>
