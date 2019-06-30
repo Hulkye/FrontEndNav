@@ -225,11 +225,67 @@ body {
 }
 
 .container .main .own {
-  display: none;
+  display: block;
   width: 100%;
   height: 40px;
   background-color: #fff;
   border-bottom: 2px dashed #94527e;
+  overflow: hidden;
+}
+
+.container .main .own .own-left {
+  float: left;
+  height: 100%;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.container .main .own .own-left .current-time {
+  margin-left: 10px;
+}
+
+.container .main .own .own-left .current-time span.date-item {
+  display: inline-block;
+  background-color: #282a36;
+  border-radius: 4px;
+  color: #fff;
+  padding: 2px 4px;
+  line-height: 19px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(21, 20, 20, 0.4);
+          box-shadow: 2px 2px 5px 0px rgba(21, 20, 20, 0.4);
+  border: 2px solid #fff;
+}
+
+.container .main .own .own-right {
+  float: right;
+  height: 100%;
+  font-size: 14px;
+}
+
+.container .main .own .own-right ul.own-link {
+  height: 100%;
+}
+
+.container .main .own .own-right ul.own-link li {
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  margin-right: 15px;
+  background-color: #3a85ff;
+  margin-top: 4px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(21, 20, 20, 0.4);
+          box-shadow: 2px 2px 5px 0px rgba(21, 20, 20, 0.4);
+  border: 2px solid #fff;
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+
+.container .main .own .own-right ul.own-link li:hover {
+  background-color: #ffaf65;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .container .footer {
@@ -358,6 +414,9 @@ body {
     width: 100vw;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+  }
+  .container .main .own {
+    display: none;
   }
   .container .main #mainContent {
     padding: 0 10px;

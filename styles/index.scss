@@ -272,11 +272,60 @@ body {
     }
 
     .own{
-      display: none;
+      display: block;
       width: 100%;
       height: 40px;
       background-color: #fff;
       border-bottom: 2px dashed #94527e;
+      overflow: hidden;
+
+      .own-left{
+        float: left;
+        height: 100%;
+        line-height: 40px;
+        font-size: 14px;
+        .current-time{
+          margin-left: 10px;
+          span.date-item{
+            display: inline-block;
+            background-color: #282a36;
+            border-radius: 4px;
+            color: #fff;
+            padding: 2px 4px;
+            line-height: 19px;
+            box-shadow: 2px 2px 5px 0px rgba(21, 20, 20, 0.4);
+            border: 2px solid #fff;
+          }
+        }
+      }
+      .own-right{
+        float: right;
+        height: 100%;
+        font-size: 14px;
+        ul.own-link{
+          height: 100%;
+          // line-height: 40px;
+          li{
+            // color: #59616f;
+            color: #fff;
+            float: left;
+            font-weight: bold;
+            margin-right: 15px;
+            background-color: #3a85ff;
+            margin-top: 4px;
+            // line-height: 12px;
+            padding: 5px 8px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px 0px rgba(21, 20, 20, 0.4);
+            border: 2px solid #fff;
+            transition: all 0.2s linear 0s;
+            &:hover{
+              background-color: #ffaf65;
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
     }
   }
 
@@ -422,6 +471,10 @@ body {
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
 
+      .own{
+        display: none;
+      }
+
       #mainContent {
         padding: 0 10px;
         background: #67B26F;  /* fallback for old browsers */
@@ -502,6 +555,7 @@ body {
       right: 20px;
       bottom: 20px;
     }
+
   }
 
 }

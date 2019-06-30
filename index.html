@@ -43,6 +43,7 @@
   <link rel="stylesheet" href="./font/iconfont.css" />
   <link rel="stylesheet" href="./styles/nprogress.css" />
   <link rel="stylesheet" href="./styles/search.css" />
+  <link rel="stylesheet" href="./styles/toastr.css" />
   <link rel="stylesheet" href="./styles/index.css" />
 </head>
 
@@ -82,7 +83,7 @@
 
       <!-- 我的github -->
       <div class="my-link item">
-        <a href="https://github.com/Hulkye" id="mygithub">
+        <a href="https://github.com/Hulkye" id="mygithub" target="_blank">
           <i class="iconfont icon-github1"></i>
         </a>
       </div>
@@ -91,14 +92,36 @@
     <!-- 主体内容 -->
     <div class="main" id="mainWrap">
       <!-- 个人bar -->
-      <section class="own"></section>
+      <section class="own">
+        <div class="own-left">
+          <div class="current-time">
+            <span id="currentYear" class="date-item">1970</span>
+            <span>-</span>
+            <span id="currentMonth" class="date-item">01</span>
+            <span>-</span>
+            <span id="currentDate" class="date-item">01</span>
+            <span>&nbsp;</span>
+            <span id="currentHours" class="date-item">00</span>
+            <span>:</span>
+            <span id="currentMinutes" class="date-item">00</span>
+            <span>:</span>
+            <span id="currentSeconds" class="date-item">00</span>
+          </div>
+        </div>
+        <div class="own-right">
+          <ul class="own-link">
+            <li><a href="https://github.com/Hulkye" target="_blank">GitHub</a></li>
+            <li><a href="javascript:;" id="aboutThis">关于本站</a></li>
+          </ul>
+        </div>
+      </section>
 
       <!-- 搜索框 -->
       <section class="sousuo">
         <div class="search">
           <div class="search-box">
             <i class="iconfont icon-baidu" id="search-icon"></i>
-            <input type="text" id="txt" class="search-input" placeholder="GoodDay 输入关键字，按回车 / Enter 搜索">
+            <input type="text" id="txt" class="search-input" placeholder=" 输入关键字，按回车 / Enter 搜索">
             <i class="iconfont icon-shanchu1" id="search-clear" style="display: none;"></i>
           </div>
           <!-- 搜索热词 -->
@@ -181,6 +204,7 @@
 <script src="./js/template-web.js"></script>
 <script src="./js/nprogress.js"></script>
 <script src="./js/search.js"></script>
+<script src="./js/toastr.js"></script>
 <script src="./js/index.js"></script>
 
 </html>
