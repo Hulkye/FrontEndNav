@@ -1,13 +1,11 @@
-
 $navbarCL: #222831;
 $titleCL: #3273dc;
 
 $mobieNavBG: rgb(68, 71, 90);
 $mobieNavItemCL: #ccc;
-$mobieNavItemActBG: #3C5671;
+$mobieNavItemActBG: #3c5671;
 $mobieNavItemActCL: #fff;
-$mobieNavItemActBD: rgb(140,74,115);
-
+$mobieNavItemActBD: rgb(140, 74, 115);
 
 body {
   font-size: 12px;
@@ -198,6 +196,17 @@ body {
     justify-content: center;
     margin-left: 250px;
 
+    .ph-box{
+      display: none;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 10px;
+
+      &.loading{
+        display: block;
+      }
+    }
+
     .itemCart {
       overflow: hidden;
       background: #fff;
@@ -257,7 +266,7 @@ body {
           color: gray;
           font-size: 12px;
           line-height: 17px;
-          padding: 10px 0; 
+          padding: 10px 0;
           height: 44px;
           // 两行注释
           text-overflow: -o-ellipsis-lastline;
@@ -271,7 +280,7 @@ body {
       }
     }
 
-    .own{
+    .own {
       display: block;
       width: 100%;
       height: 40px;
@@ -279,14 +288,14 @@ body {
       border-bottom: 2px dashed #94527e;
       overflow: hidden;
 
-      .own-left{
+      .own-left {
         float: left;
         height: 100%;
         line-height: 40px;
         font-size: 14px;
-        .current-time{
+        .current-time {
           margin-left: 10px;
-          span.date-item{
+          span.date-item {
             display: inline-block;
             background-color: #282a36;
             border-radius: 4px;
@@ -298,14 +307,14 @@ body {
           }
         }
       }
-      .own-right{
+      .own-right {
         float: right;
         height: 100%;
         font-size: 14px;
-        ul.own-link{
+        ul.own-link {
           height: 100%;
           // line-height: 40px;
-          li{
+          li {
             // color: #59616f;
             color: #fff;
             float: left;
@@ -319,7 +328,7 @@ body {
             box-shadow: 2px 2px 5px 0px rgba(21, 20, 20, 0.4);
             border: 2px solid #fff;
             transition: all 0.2s linear 0s;
-            &:hover{
+            &:hover {
               background-color: #ffaf65;
               transform: scale(1.1);
             }
@@ -368,7 +377,7 @@ body {
     opacity: 0;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    transition: all 0.3s; 
+    transition: all 0.3s;
     z-index: 1000;
 
     &.btn-is-visible {
@@ -378,15 +387,13 @@ body {
     }
     &.btn-fade-out {
       /* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
-      opacity: .5;
-    } 
-    img{
+      opacity: 0.5;
+    }
+    img {
       width: 100%;
       height: 100%;
     }
   }
-
-
 }
 
 @media (max-width: 480px) {
@@ -438,14 +445,13 @@ body {
 
           li {
             display: inline-block;
-            width: calc(100%/3);
+            width: calc(100% / 3);
             padding-left: 0;
             line-height: 40px;
             // height: 38px;
             text-align: center;
             font-size: 14px;
             color: $mobieNavItemCL;
-            
 
             i {
               display: none;
@@ -457,7 +463,7 @@ body {
               background-color: $mobieNavItemActBG;
               border-bottom: 3px solid $mobieNavItemActBD;
               color: $mobieNavItemActCL;
-              transition: all ease-in .3s;
+              transition: all ease-in 0.3s;
             }
           }
         }
@@ -471,23 +477,30 @@ body {
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
 
-      .own{
+      .own {
         display: none;
       }
 
       #mainContent {
         padding: 0 10px;
-        background: #67B26F;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background: #67b26f; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to left,
+          #4ca2cd,
+          #67b26f
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to left,
+          #4ca2cd,
+          #67b26f
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
         .itemCart {
           margin: 0;
           margin-top: 16px;
           overflow: hidden;
           width: 100%;
-          opacity: .99;
+          opacity: 0.99;
 
           &:last-child {
             margin-bottom: 16px;
@@ -555,9 +568,7 @@ body {
       right: 20px;
       bottom: 20px;
     }
-
   }
-
 }
 
 @media (min-width: 481px) {

@@ -153,6 +153,17 @@ body {
   margin-left: 250px;
 }
 
+.container .main .ph-box {
+  display: none;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.container .main .ph-box.loading {
+  display: block;
+}
+
 .container .main .itemCart {
   overflow: hidden;
   background: #fff;
@@ -339,7 +350,7 @@ body {
 
 .container .goTop.btn-fade-out {
   /* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .container .goTop img {
@@ -390,7 +401,7 @@ body {
   }
   .container .left-bar .nav ul li {
     display: inline-block;
-    width: calc(100%/3);
+    width: calc(100% / 3);
     padding-left: 0;
     line-height: 40px;
     text-align: center;
@@ -402,11 +413,11 @@ body {
   }
   .container .left-bar .nav ul li.active {
     height: 40px;
-    background-color: #3C5671;
+    background-color: #3c5671;
     border-bottom: 3px solid #8c4a73;
     color: #fff;
-    -webkit-transition: all ease-in .3s;
-    transition: all ease-in .3s;
+    -webkit-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
   }
   .container .main {
     padding-top: 40px;
@@ -420,11 +431,11 @@ body {
   }
   .container .main #mainContent {
     padding: 0 10px;
-    background: #67B26F;
+    background: #67b26f;
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear, right top, left top, from(#4ca2cd), to(#67B26F));
-    background: linear-gradient(to left, #4ca2cd, #67B26F);
+    background: -webkit-gradient(linear, right top, left top, from(#4ca2cd), to(#67b26f));
+    background: linear-gradient(to left, #4ca2cd, #67b26f);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   .container .main #mainContent .itemCart {
@@ -432,7 +443,7 @@ body {
     margin-top: 16px;
     overflow: hidden;
     width: 100%;
-    opacity: .99;
+    opacity: 0.99;
   }
   .container .main #mainContent .itemCart:last-child {
     margin-bottom: 16px;

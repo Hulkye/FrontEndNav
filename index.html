@@ -44,6 +44,7 @@
   <link rel="stylesheet" href="./styles/nprogress.css" />
   <link rel="stylesheet" href="./styles/search.css" />
   <link rel="stylesheet" href="./styles/toastr.css" />
+  <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
   <link rel="stylesheet" href="./styles/index.css" />
 </head>
 
@@ -121,7 +122,7 @@
         <div class="search">
           <div class="search-box">
             <i class="iconfont icon-baidu" id="search-icon"></i>
-            <input type="text" id="txt" class="search-input" placeholder=" 输入关键字，按回车 / Enter 搜索">
+            <input type="text" id="txt" class="search-input" placeholder=" 输入关键字，按回车 / Enter 搜索" autocomplete="off">
             <i class="iconfont icon-shanchu1" id="search-clear" style="display: none;"></i>
           </div>
           <!-- 搜索热词 -->
@@ -138,6 +139,59 @@
           </div>
         </div>
       </section>
+
+      <!-- 骨架屏 -->
+      <div class="ph-box loading">
+        <div class="ph-item">
+          <div class="ph-col-12">
+            <div class="ph-picture"></div>
+            <div class="ph-row">
+              <div class="ph-col-10"></div>
+              <div class="ph-col-2 empty"></div>
+              <div class="ph-col-12"></div>
+              <div class="ph-col-6"></div>
+              <div class="ph-col-6 empty"></div>
+              <div class="ph-col-12 big"></div>
+            </div>
+            <div class="ph-picture"></div>
+            <div class="ph-row">
+              <div class="ph-col-10"></div>
+              <div class="ph-col-2 empty"></div>
+              <div class="ph-col-12"></div>
+              <div class="ph-col-6"></div>
+              <div class="ph-col-6 empty"></div>
+              <div class="ph-col-12 big"></div>
+            </div>
+            <div class="ph-picture"></div>
+            <div class="ph-row">
+              <div class="ph-col-10"></div>
+              <div class="ph-col-2 empty"></div>
+              <div class="ph-col-12"></div>
+              <div class="ph-col-6"></div>
+              <div class="ph-col-6 empty"></div>
+              <div class="ph-col-12 big"></div>
+            </div>
+            <div class="ph-picture"></div>
+            <div class="ph-row">
+              <div class="ph-col-10"></div>
+              <div class="ph-col-2 empty"></div>
+              <div class="ph-col-12"></div>
+              <div class="ph-col-6"></div>
+              <div class="ph-col-6 empty"></div>
+              <div class="ph-col-12 big"></div>
+            </div>
+            <div class="ph-picture"></div>
+            <div class="ph-row">
+              <div class="ph-col-10"></div>
+              <div class="ph-col-2 empty"></div>
+              <div class="ph-col-12"></div>
+              <div class="ph-col-6"></div>
+              <div class="ph-col-6 empty"></div>
+              <div class="ph-col-12 big"></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div id="mainContent">
         <!-- 分类选项卡模板 -->

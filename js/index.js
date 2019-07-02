@@ -50,6 +50,8 @@ $(function () {
       $('#category > ul').html(categoryHTML)
       $('#mainContent').html(navItemHTML)
 
+      $('.ph-box').removeClass('loading')
+
       goTop()
 
       Echo.init({
