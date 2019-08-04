@@ -888,6 +888,12 @@
         "img_src": "./img/pixelartcss.png",
         "a_href": "https://github.com/jvalen/pixel-art-react",
         "child_desc": "由React提供的像素艺术动画和绘图Web应用程序"
+      },
+      {
+        "child_name": "Autoprefixer CSS",
+        "img_src": "./img/autoprefixer.png",
+        "a_href": "http://autoprefixer.github.io/",
+        "child_desc": "(在线)autoprefixer是一个postcss插件，用于解析CSS并添加供应商前缀。"
       }
     ]
   },
@@ -1318,6 +1324,12 @@
         "img_src": "./img/notepad.png",
         "a_href": "https://notepad-plus-plus.org/",
         "child_desc": "Notepad++是 Windows操作系统下的一套文本编辑器(软件版权许可证: GPL),有完整的中文化接口及支持多国语言编写的功能(UTF8技术)。"
+      },
+      {
+        "child_name": "HBuilderX",
+        "img_src": "./img/hbuilderx.png",
+        "a_href": "http://www.dcloud.io/hbuilderx.html",
+        "child_desc": "HBuilderX，简称HX，是轻如编辑器、强如IDE的合体版本"
       }
     ]
   },
@@ -1756,6 +1768,12 @@
         "img_src": "./img/vue_simple_uploader.png",
         "a_href": "https://github.com/simple-uploader/vue-uploader/blob/master/README_zh-CN.md",
         "child_desc": "一个基于 simple-uploader.js 的 Vue 上传组件"
+      },
+      {
+        "child_name": "NutUI",
+        "img_src": "./img/nutui.png",
+        "a_href": "http://nutui.jd.com",
+        "child_desc": "一套京东风格的轻量级移动端Vue组件库"
       }
     ]
   },
@@ -1794,6 +1812,12 @@
         "img_src": "./img/mpvue.png",
         "a_href": "http://mpvue.com/",
         "child_desc": "基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系"
+      },
+      {
+        "child_name": "uni-app",
+        "img_src": "./img/uniapp.png",
+        "a_href": "https://uniapp.dcloud.io/",
+        "child_desc": "uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可编译到iOS、Android、H5、以及各种小程序等多个平台。"
       },
       {
         "child_name": "WeUI",
@@ -1989,6 +2013,18 @@
         "child_desc": "在线接口测试,模拟接口,正则匹配"
       },
       {
+        "child_name": "Easy Mock",
+        "img_src": "./img/easymock.png",
+        "a_href": "https://easy-mock.com",
+        "child_desc": "Easy Mock 是一个可视化, 并且能快速生成模拟数据的持久化服务."
+      },
+      {
+        "child_name": "YAPI",
+        "img_src": "./img/yapi.png",
+        "a_href": "http://yapi.demo.qunar.com",
+        "child_desc": "YApi 是高效、易用、功能强大的 api 管理平台，旨在为开发、产品、测试人员提供更优雅的接口管理服务。"
+      },
+      {
         "child_name": "云配色",
         "img_src": "./img/qdsay.png",
         "a_href": "http://card.qdsay.com/",
@@ -2047,12 +2083,6 @@
         "img_src": "./img/ipip.png",
         "a_href": "https://www.ipip.net/",
         "child_desc": "最专业的 IP 地址库,该站有许多ip类工具"
-      },
-      {
-        "child_name": "Easy Mock",
-        "img_src": "./img/easymock.png",
-        "a_href": "https://easy-mock.com",
-        "child_desc": "Easy Mock 是一个可视化, 并且能快速生成模拟数据的持久化服务."
       },
       {
         "child_name": "Codelf",
@@ -2411,6 +2441,18 @@
         "img_src": "./img/git.png",
         "a_href": "https://git-scm.com/",
         "child_desc": "版本控制工具"
+      },
+      {
+        "child_name": "NVM",
+        "img_src": "./img/nvm.png",
+        "a_href": "https://github.com/coreybutler/nvm-windows",
+        "child_desc": "nvm (Node Version Manager) 是Nodejs版本管理器，可对不同的node版本快速进行切换。"
+      },
+      {
+        "child_name": "Cmder",
+        "img_src": "./img/cmder.png",
+        "a_href": "https://cmder.net/",
+        "child_desc": "cmder是一个增强型命令工具，通过它可以使用Windows下的所有命令，可以使你像操作Linux一样操作Windows，是一个值得我们拥有的高逼格软件。"
       },
       {
         "child_name": "马克鳗",
