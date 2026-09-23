@@ -16,8 +16,7 @@
 
 **查看效果请移步:** 
 
-- http://nav.web-hub.cn/
-- or: https://hulkye.github.io/FrontEndNav
+- https://hulkye.github.io/FrontEndNav
 
 
 
